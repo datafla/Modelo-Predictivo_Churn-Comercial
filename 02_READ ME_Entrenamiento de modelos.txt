@@ -1,0 +1,11 @@
+MODELO PREDICTIVO DE CLASIFICACION DE CHURN COMERCIAL PARA UNA STARTUP BOLIVIANA
+(REPRODUCCION)
+
+DESCRIPCIÓN: Este documento describe los pasos para reproducir las capas de la arquitectura Medallion del presente proyecto.
+
+Paso 1. Abrir la Carpeta 'MODELO-PREDICTIVO_CHURN-COMERCIAL' desde el navegador de VS Code o de Google colab.
+
+Paso 2. Hacer click en la carpeta 'notebooks' donde se podrán visualizar todos los notebooks que componen las capas de la arquitectura Medallion.
+
+Paso 3. Hacer click en el notebook 'Training ML Churn Comercial .ipynb', en este notebook se podrá visualizar todo el código que se utilizó para entrenar el modelo predictivo de clasificación del presente proyecto (correspondiente al Anexo 8), el notebook se compone de 6 secciones las cuales corresponden a los pasos para entrenar el modelo predictivo.
+

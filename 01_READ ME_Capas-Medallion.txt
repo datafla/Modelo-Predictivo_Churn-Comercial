@@ -1,0 +1,20 @@
+MODELO PREDICTIVO DE CLASIFICACION DE CHURN COMERCIAL PARA UNA STARTUP BOLIVIANA
+(REPRODUCCION)
+
+DESCRIPCIÓN: Este documento describe los pasos para reproducir las capas de la arquitectura Medallion del presente proyecto.
+
+Paso 1. Abrir la Carpeta 'MODELO-PREDICTIVO_CHURN-COMERCIAL' desde el navegador de VS Code o de Google colab.
+
+Paso 2. Hacer click en la carpeta 'notebooks' donde se podrán visualizar todos los notebooks que componen las capas de la arquitectura Medallion.
+
+Paso 3. Hacer click en el notebook '01_bronze_data.ipynb', en este notebook se podrá visualizar todo el código que se utilizo para extraer los datos desde la API del CRM Pipedrive de la empresa, sin embargo, no se podrá reproducir, la extracción de datos desde la API utiliza tokens privados de la startup, y en la salida se encuentra en la dirección 'data\output_bronce' que contiene los datos en bruto en formato Data Frame y la metadata en formato JSON.
+
+Paso 4: Hacer click en el notebook '02_1_silver_standarized.ipynb', en el navegador y reproducir todas las celdas en orden para aplicar la estandarización en la subcapa plata (correspondiente al Anexo 3). Este notebook utiliza la salida del notebook '01_bronze_data.ipynb' y procesa los datos para normalizarlos. En este proceso, se reemplazan los códigos de la metadata con sus equivalentes para que la información sea más comprensible para el usuario.
+
+Paso 5. Hacer click en el notebook '02_2_silver_filtered.ipynb', en el navegador y reproducir todas las celdas en orden para aplicar el filtrado en la sub capa plata de filtrado (correspondiente al Anexo 4). Este notebook utiliza la salida del notebook '02_1_silver_standarized.ipynb' y procesa los datos para filtrar campos o columnas. En este proceso se seleccionan los campos o columnas que serán útiles para este modelo predictivo de clasificación.
+
+Paso 6. Hacer click en el notebook '02_3_silver_enriched.ipynb' en el navegador y ejecutar todas las celdas en orden para aplicar operaciones en las tablas, como pivoteo, agrupamiento de datos, cálculo de nuevos campos y combinación de tablas (correspondiente al Anexo 5). Este notebook utiliza la salida del notebook '02_2_silver_filtered.ipynb' y procesa los datos para generar campos calculados, datos agrupados y tablas unidas. La información resultante se empleará posteriormente en el Análisis Exploratorio de Datos y en la capa oro.
+
+Paso 7, Hacer click en el notebook '03_gold_data_.ipynb' en el navegador y reproducir todas las celdas en orden para aplicar operaciones de limpieza y preparación de datos final para sus posterior uso en el entrenamiento del modelo (correspondiente al Anexo 6). Este notebook utiliza la salida del notebook '02_3_silver_enriched.ipynb' y procesa los datos para obtener una data limpia y lista para el entrenamiento del modelo predictivo de clasificación del proyecto.
+
+Paso 8. Hacer clic en el notebook 'EDA_churn' en el navegador y ejecutar todas las celdas en orden para generar las visualizaciones del Análisis Exploratorio de Datos (EDA). Estas visualizaciones permitirán comprender las características y la distribución de los datos.

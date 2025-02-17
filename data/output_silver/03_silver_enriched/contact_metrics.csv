@@ -1,0 +1,375 @@
+org_id.value,Tipo de cliente,Total_Actividades_com,Total_Llamadas_com,Llamadas_Efectivas_com,Llamadas_No_Efectivas_com,WA_Seguimiento_com,Reuniones_Hechas,Reuniones_Canceladas,Tipo Primer Contacto,Rango de Contacto,New Categories,R1yR2,Total_Actividades_exp,Total_Llamadas_exp,Llamadas_Efectivas_exp,Llamadas_No_Efectivas_exp,WA_Seguimiento_exp,Kickoff_Hechas,Kickoff_Canceladas,Capacitaciones_Hechas,Capacitaciones_Canceladas,Tipo Primera Capacitación,Onboarding,(C) (EXP) Plazo y Pago,Churn Comercial
+515.0,B,30,16,7,9,13,1,0,No Efectiva,Fuera del rango,0,0,8,3,2,1,1,1,1,0,2,Hecha,No Finalizado,Anual,0
+2249.0,B,12,8,4,4,3,1,0,Efectiva,Dentro del rango,0,0,4,0,0,0,0,1,0,2,1,Hecha,No Finalizado,Anual,0
+3120.0,B,9,6,5,1,2,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,0,0,1,0,Hecha,No Finalizado,Anual,0
+5181.0,B,10,3,2,1,6,1,0,No Efectiva,Fuera del rango,0,0,9,1,1,0,5,0,0,3,0,Hecha,No Finalizado,Anual,0
+8446.0,A,8,3,3,0,4,1,0,Efectiva,Fuera del rango,0,0,10,3,3,0,1,0,0,6,0,Hecha,Finalizado,Anual,0
+8875.0,C,8,3,2,1,4,1,0,No Efectiva,Fuera del rango,0,0,7,1,1,0,0,1,0,4,1,Hecha,No Finalizado,Anual,0
+11006.0,B,11,6,4,2,4,1,0,No Efectiva,Fuera del rango,0,0,10,3,2,1,3,1,1,2,0,Hecha,No Finalizado,Anual,0
+11790.0,A,31,14,7,7,12,2,3,No Efectiva,Dentro del rango,1,1,12,7,2,5,5,0,0,0,0,No tuvo,No Finalizado,Mensual,1
+13244.0,B,24,12,5,7,10,2,0,No Efectiva,Fuera del rango,0,1,8,1,0,1,7,0,0,0,0,No tuvo,Finalizado,Mensual,0
+13303.0,B,8,1,1,0,5,2,0,Efectiva,Fuera del rango,1,1,6,3,0,3,3,0,0,0,0,No tuvo,Finalizado,Mensual,1
+14643.0,C,5,2,2,0,1,2,0,Efectiva,Dentro del rango,1,1,5,1,1,0,4,0,0,0,0,No tuvo,Finalizado,Anual,0
+15666.0,C,10,6,2,4,4,0,0,Efectiva,Fuera del rango,0,0,5,2,0,2,1,1,0,0,1,Hecha,No Finalizado,Anual,0
+18157.0,A,2,1,1,0,1,0,0,Efectiva,Fuera del rango,1,0,5,0,0,0,4,0,0,1,0,Hecha,Finalizado,Mensual,0
+18318.0,A,5,3,2,1,1,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+19418.0,B,8,3,2,1,3,2,0,No Efectiva,Fuera del rango,0,1,2,1,1,0,1,0,0,0,0,No tuvo,Finalizado,Anual,0
+21240.0,B,15,5,5,0,6,4,0,Efectiva,Fuera del rango,0,0,3,0,0,0,0,0,0,3,0,Hecha,No Finalizado,Anual,0
+21928.0,B,10,6,6,0,2,2,0,Efectiva,Fuera del rango,0,1,20,8,2,6,5,0,1,3,3,Hecha,No Finalizado,Mensual,1
+22300.0,B,15,9,8,1,5,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+23853.0,B,15,6,4,2,8,1,0,No Efectiva,Fuera del rango,0,0,20,4,1,3,0,1,0,12,3,Hecha,No Finalizado,Anual,0
+24066.0,C,49,31,22,9,13,3,2,Efectiva,Fuera del rango,0,0,10,4,2,2,6,0,0,0,0,No tuvo,Finalizado,Mensual,0
+25099.0,B,8,3,2,1,4,1,0,Efectiva,Fuera del rango,0,0,31,14,2,12,16,1,0,0,0,No tuvo,No Finalizado,Mensual,0
+25239.0,"A
+",11,7,6,1,1,2,1,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+25986.0,B,16,9,8,1,6,1,0,Efectiva,Fuera del rango,0,0,4,0,0,0,0,1,0,3,0,Hecha,No Finalizado,Anual,0
+26138.0,C,31,17,14,3,10,2,2,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+26622.0,B,13,9,8,1,2,1,1,Efectiva,Fuera del rango,0,0,7,3,2,1,1,0,0,2,1,Hecha,No Finalizado,Anual,0
+26808.0,B,61,31,9,22,28,1,1,No Efectiva,Fuera del rango,0,0,10,5,0,5,4,1,0,0,0,No tuvo,No Finalizado,Anual,0
+27865.0,C,24,15,10,5,8,1,0,Efectiva,Fuera del rango,0,0,2,1,1,0,0,0,0,1,0,Hecha,No Finalizado,Anual,0
+28877.0,A,20,7,2,5,11,2,0,No Efectiva,Dentro del rango,0,1,8,0,0,0,5,1,0,1,1,Hecha,Finalizado,Mensual,0
+29676.0,B,28,20,19,1,5,2,1,Efectiva,Fuera del rango,0,0,6,0,0,0,0,1,1,2,2,Hecha,No Finalizado,Anual,0
+32063.0,C,38,23,17,6,12,3,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,0,0,1,1,Hecha,No Finalizado,Anual,0
+32334.0,C,60,39,28,11,14,3,4,Efectiva,Fuera del rango,0,0,4,0,0,0,0,1,0,3,0,Hecha,No Finalizado,Anual,0
+33844.0,A,62,32,26,6,26,3,1,Efectiva,Dentro del rango,0,0,12,0,0,0,7,0,0,4,1,Hecha,No Finalizado,Anual,0
+33887.0,A,13,6,5,1,6,0,1,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Mensual,1
+34079.0,B,42,28,12,16,13,1,0,Efectiva,Dentro del rango,0,0,3,0,0,0,0,1,0,1,1,Hecha,No Finalizado,Anual,0
+34566.0,B,6,4,4,0,0,2,0,Efectiva,Fuera del rango,1,1,4,0,0,0,1,0,1,2,0,Hecha,Finalizado,Mensual,0
+34812.0,C,35,21,4,17,12,1,1,Efectiva,Fuera del rango,0,0,12,3,2,1,8,1,0,0,0,No tuvo,No Finalizado,Anual,0
+35745.0,B,17,3,3,0,12,2,0,Efectiva,Dentro del rango,0,0,14,11,5,6,3,0,0,0,0,No tuvo,No Finalizado,Anual,0
+35764.0,A,9,3,2,1,4,2,0,Efectiva,Dentro del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Mensual,1
+35984.0,C,52,32,11,21,19,1,0,Efectiva,Dentro del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+36107.0,A,50,31,13,18,15,3,1,No Efectiva,Fuera del rango,0,0,6,0,0,0,0,1,0,1,4,Hecha,No Finalizado,Anual,0
+36248.0,B,7,3,2,1,3,1,0,Efectiva,Fuera del rango,0,0,8,0,0,0,6,1,0,1,0,Hecha,No Finalizado,Anual,0
+36345.0,B,40,19,14,5,20,1,0,Efectiva,Fuera del rango,0,0,3,0,0,0,0,0,0,2,1,Hecha,No Finalizado,Anual,0
+36382.0,A,31,18,14,4,11,2,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,0,0,0,1,Hecha,No Finalizado,Anual,0
+36743.0,C,11,7,6,1,2,1,1,Efectiva,Fuera del rango,0,0,6,1,0,1,0,0,1,3,1,Hecha,No Finalizado,Anual,0
+37164.0,B,68,38,29,9,24,2,4,Efectiva,Fuera del rango,0,0,2,1,1,0,0,0,1,0,0,No tuvo,No Finalizado,Anual,0
+37407.0,C,10,5,4,1,4,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+37990.0,C,28,16,8,8,11,0,1,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+38055.0,A,15,7,7,0,6,1,1,No tuvo,Sin Llamada de primer contacto,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+38595.0,C,19,10,3,7,8,0,1,Efectiva,Fuera del rango,0,0,1,1,0,1,0,0,0,0,0,No tuvo,No Finalizado,Anual,0
+39188.0,B,8,2,1,1,3,2,1,Efectiva,Fuera del rango,0,1,12,9,1,8,2,0,0,0,1,Hecha,No Finalizado,Mensual,1
+39608.0,B,19,10,10,0,8,1,0,Efectiva,Fuera del rango,0,0,3,0,0,0,1,0,0,1,1,Hecha,No Finalizado,Anual,0
+39917.0,A,90,51,36,15,37,2,0,Efectiva,Dentro del rango,0,0,2,1,0,1,1,0,0,0,0,No tuvo,No Finalizado,Anual,0
+40762.0,B,20,15,13,2,5,0,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+40782.0,B,27,15,13,2,9,3,0,Efectiva,Dentro del rango,0,0,2,0,0,0,0,0,0,2,0,Hecha,No Finalizado,Anual,0
+41174.0,B,33,20,13,7,12,1,0,Efectiva,Fuera del rango,0,0,3,0,0,0,0,1,0,2,0,Hecha,No Finalizado,Anual,0
+41349.0,C,32,14,6,8,14,2,2,No Efectiva,Fuera del rango,0,0,4,0,0,0,1,1,0,2,0,Hecha,No Finalizado,Anual,0
+41601.0,B,22,9,4,5,11,2,0,Efectiva,Fuera del rango,0,0,8,0,0,0,5,1,1,1,0,Hecha,No Finalizado,Anual,0
+41661.0,B,48,33,22,11,13,2,0,No Efectiva,Fuera del rango,0,0,5,1,1,0,3,0,0,1,0,Hecha,No Finalizado,Anual,0
+42057.0,B,14,10,7,3,3,1,0,No Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+42152.0,B,44,20,13,7,24,0,0,No Efectiva,Fuera del rango,0,0,5,2,0,2,3,0,0,0,0,No tuvo,Finalizado,Anual,0
+42491.0,B,22,15,13,2,5,2,0,No Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Mensual,1
+42743.0,B,18,9,4,5,6,3,0,No Efectiva,Fuera del rango,0,1,9,4,1,3,4,0,0,1,0,Hecha,Finalizado,Mensual,0
+42944.0,C,20,10,3,7,9,1,0,Efectiva,Fuera del rango,0,0,6,3,1,2,0,1,1,1,0,Hecha,No Finalizado,Anual,0
+43082.0,C,18,13,10,3,3,2,0,No Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Mensual,1
+43176.0,C,26,13,8,5,9,1,3,No Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+43213.0,B,4,2,2,0,1,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Mensual,0
+43723.0,B,52,39,10,29,12,1,0,Efectiva,Dentro del rango,0,0,17,0,0,0,0,1,0,11,5,Hecha,No Finalizado,Anual,0
+44087.0,B,11,2,1,1,7,2,0,No Efectiva,Fuera del rango,0,0,7,0,0,0,0,1,0,5,1,Hecha,No Finalizado,Anual,0
+52360.0,A,16,10,8,2,4,2,0,No Efectiva,Dentro del rango,0,0,19,5,3,2,13,0,0,1,0,Hecha,No Finalizado,Anual,0
+58709.0,A,12,9,4,5,2,1,0,No tuvo,Sin Llamada de primer contacto,1,0,8,4,1,3,3,0,0,1,0,Hecha,No Finalizado,Mensual,0
+66678.0,A,16,5,4,1,10,1,0,Efectiva,Dentro del rango,0,0,1,0,0,0,1,0,0,0,0,No tuvo,No Finalizado,Anual,0
+76246.0,A,20,8,3,5,12,0,0,No tuvo,Sin Llamada de primer contacto,1,0,3,1,1,0,0,0,0,2,0,Hecha,Finalizado,Anual,0
+78936.0,B,9,4,4,0,4,1,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,1,0,0,No tuvo,No Finalizado,Anual,0
+78999.0,B,26,4,1,3,19,2,1,No Efectiva,Dentro del rango,0,0,4,0,0,0,1,1,0,2,0,Hecha,No Finalizado,Anual,0
+79029.0,B,25,18,5,13,6,1,0,Efectiva,Fuera del rango,0,0,17,8,2,6,8,0,0,0,1,Hecha,No Finalizado,Mensual,1
+79056.0,B,21,12,5,7,7,1,1,No Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+82560.0,A,5,0,0,0,4,1,0,No tuvo,Sin Llamada de primer contacto,0,0,8,1,1,0,0,0,0,7,0,Hecha,Finalizado,Anual,0
+83979.0,B,6,1,1,0,3,2,0,Efectiva,Fuera del rango,0,1,13,7,3,4,4,1,0,0,1,Hecha,No Finalizado,Mensual,1
+84813.0,C,6,4,3,1,1,1,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,0,1,Hecha,No Finalizado,Anual,0
+88655.0,A,9,6,3,3,2,1,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,1,0,0,No tuvo,No Finalizado,Anual,0
+89294.0,B,11,7,3,4,3,1,0,Efectiva,Fuera del rango,0,0,10,0,0,0,8,1,0,1,0,Hecha,No Finalizado,Anual,0
+89313.0,B,11,3,3,0,7,1,0,Efectiva,Fuera del rango,0,0,10,3,3,0,2,1,0,0,4,Hecha,No Finalizado,Anual,0
+93958.0,A,16,5,5,0,9,1,1,Efectiva,Fuera del rango,0,0,3,0,0,0,0,1,1,0,1,Hecha,No Finalizado,Anual,0
+96590.0,B,5,2,2,0,3,0,0,Efectiva,Fuera del rango,0,0,6,3,1,2,2,1,0,0,0,No tuvo,No Finalizado,Mensual,0
+103377.0,B,5,2,1,1,3,0,0,No Efectiva,Fuera del rango,0,0,1,0,0,0,1,0,0,0,0,No tuvo,No Finalizado,Anual,0
+122385.0,B,33,19,14,5,11,2,1,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,0,1,Hecha,No Finalizado,Anual,0
+137649.0,A,50,30,14,16,18,1,1,Efectiva,Fuera del rango,0,0,6,1,0,1,0,1,0,3,1,Hecha,No Finalizado,Anual,0
+139223.0,B,17,9,7,2,6,2,0,Efectiva,Fuera del rango,0,0,7,0,0,0,0,0,1,5,1,Hecha,No Finalizado,Anual,0
+140751.0,B,29,19,8,11,9,1,0,Efectiva,Fuera del rango,0,0,1,1,1,0,0,0,0,0,0,No tuvo,No Finalizado,Anual,0
+143838.0,A,55,26,14,12,28,1,0,No Efectiva,Fuera del rango,0,0,5,0,0,0,4,0,0,1,0,Hecha,No Finalizado,Anual,0
+160918.0,B,9,4,4,0,4,1,0,Efectiva,Fuera del rango,0,0,2,1,1,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+161380.0,B,10,4,4,0,5,1,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,2,0,0,0,No tuvo,No Finalizado,Anual,0
+170923.0,B,22,16,8,8,4,1,1,Efectiva,Fuera del rango,0,0,2,0,0,0,1,1,0,0,0,No tuvo,No Finalizado,Anual,0
+181294.0,B,12,3,3,0,7,2,0,No tuvo,Sin Llamada de primer contacto,0,0,1,0,0,0,0,0,0,0,1,Hecha,No Finalizado,Anual,0
+181761.0,B,6,2,2,0,4,0,0,No tuvo,Sin Llamada de primer contacto,0,0,3,0,0,0,0,0,0,3,0,Hecha,No Finalizado,Anual,0
+184756.0,B,9,3,2,1,4,2,0,Efectiva,Fuera del rango,0,1,8,1,1,0,4,0,0,3,0,Hecha,Finalizado,Anual,0
+202815.0,B,14,7,5,2,6,1,0,Efectiva,Dentro del rango,0,0,5,0,0,0,0,1,0,3,1,Hecha,No Finalizado,Anual,0
+203202.0,B,22,12,5,7,9,1,0,No Efectiva,Fuera del rango,0,0,2,0,0,0,1,1,0,0,0,No tuvo,No Finalizado,Anual,0
+203448.0,B,7,5,4,1,1,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Mensual,0
+203591.0,C,10,5,5,0,4,1,0,Efectiva,Dentro del rango,0,0,12,1,0,1,8,0,2,1,0,Hecha,Finalizado,Anual,0
+203596.0,B,5,1,0,1,4,0,0,No Efectiva,Fuera del rango,0,0,13,0,0,0,1,1,0,8,3,Hecha,No Finalizado,Anual,0
+203629.0,C,6,2,2,0,3,1,0,No tuvo,Sin Llamada de primer contacto,0,0,4,1,1,0,0,1,1,0,1,Hecha,No Finalizado,Anual,0
+203772.0,A,3,2,2,0,0,1,0,No tuvo,Sin Llamada de primer contacto,0,0,2,0,0,0,0,1,1,0,0,No tuvo,No Finalizado,Anual,0
+203897.0,C,4,1,1,0,1,1,1,No tuvo,Sin Llamada de primer contacto,0,0,4,0,0,0,1,1,2,0,0,No tuvo,No Finalizado,Anual,0
+203942.0,B,7,4,1,3,2,1,0,Efectiva,Fuera del rango,0,0,9,1,1,0,5,1,0,2,0,Hecha,Finalizado,Mensual,0
+204094.0,A,4,1,1,0,2,1,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+204163.0,B,21,10,7,3,9,2,0,No Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+204267.0,B,14,10,5,5,4,0,0,Efectiva,Fuera del rango,0,0,3,0,0,0,0,1,0,2,0,Hecha,No Finalizado,Anual,0
+204293.0,B,4,3,3,0,0,1,0,Efectiva,Fuera del rango,0,0,3,1,0,1,0,1,1,0,0,No tuvo,No Finalizado,Anual,0
+204302.0,B,9,5,5,0,3,1,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,1,0,0,No tuvo,No Finalizado,Anual,0
+204360.0,B,11,9,5,4,1,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+204362.0,B,8,5,3,2,2,1,0,No Efectiva,Fuera del rango,0,0,5,2,0,2,1,1,1,0,0,No tuvo,No Finalizado,Anual,0
+204546.0,B,5,4,4,0,0,1,0,Efectiva,Dentro del rango,0,0,3,0,0,0,0,1,1,1,0,Hecha,No Finalizado,Anual,0
+204638.0,B,14,8,8,0,4,2,0,Efectiva,Fuera del rango,0,1,12,7,5,2,5,0,0,0,0,No tuvo,Finalizado,Anual,0
+204920.0,B,5,2,2,0,2,1,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+204972.0,B,17,13,10,3,2,1,1,No Efectiva,Fuera del rango,0,0,3,0,0,0,2,1,0,0,0,No tuvo,No Finalizado,Anual,0
+205088.0,B,5,3,3,0,0,2,0,Efectiva,Dentro del rango,0,0,5,0,0,0,0,1,0,4,0,Hecha,No Finalizado,Anual,0
+205136.0,C,15,6,3,3,7,1,1,Efectiva,Fuera del rango,0,0,5,1,1,0,1,1,0,2,0,Hecha,No Finalizado,Anual,0
+205193.0,C,6,2,2,0,4,0,0,Efectiva,Dentro del rango,0,0,1,0,0,0,0,0,1,0,0,No tuvo,No Finalizado,Anual,0
+205388.0,B,17,5,2,3,10,1,1,Efectiva,Fuera del rango,0,0,10,3,1,2,6,1,0,0,0,No tuvo,No Finalizado,Anual,0
+205507.0,B,5,3,2,1,2,0,0,No Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,1,0,0,No tuvo,No Finalizado,Anual,0
+205593.0,A,7,5,2,3,1,1,0,Efectiva,Fuera del rango,0,0,3,0,0,0,2,1,0,0,0,No tuvo,No Finalizado,Anual,0
+205677.0,B,9,5,4,1,3,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+205879.0,A,67,42,29,13,24,1,0,Efectiva,Fuera del rango,0,0,5,2,1,1,0,0,0,1,2,Hecha,No Finalizado,Anual,0
+205891.0,B,15,8,6,2,6,1,0,Efectiva,Dentro del rango,0,0,2,1,0,1,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+205893.0,C,1,1,1,0,0,0,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,1,0,0,No tuvo,No Finalizado,Anual,0
+205906.0,B,45,26,11,15,16,1,2,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+205975.0,B,6,5,4,1,0,1,0,Efectiva,Fuera del rango,0,0,3,2,0,2,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+205978.0,B,22,13,5,8,7,2,0,Efectiva,Dentro del rango,0,0,4,0,0,0,0,1,0,3,0,Hecha,No Finalizado,Anual,0
+206022.0,B,19,14,12,2,4,1,0,Efectiva,Fuera del rango,0,0,9,3,0,3,3,1,0,1,1,Hecha,No Finalizado,Anual,0
+206104.0,B,10,4,4,0,5,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Mensual,1
+206281.0,A,2,2,2,0,0,0,0,No tuvo,Sin Llamada de primer contacto,0,0,4,1,1,0,0,0,0,1,2,Hecha,No Finalizado,Anual,0
+206347.0,B,19,9,5,4,8,1,1,No Efectiva,Fuera del rango,0,0,12,3,2,1,3,1,0,5,0,Hecha,No Finalizado,Anual,0
+206539.0,B,10,7,6,1,2,1,0,No Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+206647.0,B,2,0,0,0,2,0,0,No tuvo,Sin Llamada de primer contacto,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+206716.0,A,12,7,3,4,4,1,0,Efectiva,Fuera del rango,0,0,11,4,0,4,5,1,0,1,0,Hecha,No Finalizado,Anual,0
+206787.0,B,4,3,3,0,0,1,0,Efectiva,Fuera del rango,0,0,5,0,0,0,1,1,0,2,1,Hecha,No Finalizado,Anual,0
+206819.0,B,2,1,1,0,1,0,0,No tuvo,Sin Llamada de primer contacto,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+206840.0,B,14,8,4,4,5,1,0,Efectiva,Fuera del rango,0,0,3,1,1,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+207142.0,A,14,6,6,0,7,1,0,Efectiva,Dentro del rango,0,0,3,1,0,1,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+207393.0,B,19,10,8,2,8,1,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+207428.0,B,22,13,10,3,7,2,0,Efectiva,Fuera del rango,0,0,6,4,3,1,1,1,0,0,0,No tuvo,No Finalizado,Anual,0
+207806.0,B,6,3,2,1,2,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,0,1,0,0,No tuvo,No Finalizado,Mensual,1
+207821.0,B,14,7,7,0,6,1,0,Efectiva,Fuera del rango,0,0,3,0,0,0,0,0,1,2,0,Hecha,No Finalizado,Anual,0
+207846.0,C,9,1,1,0,7,1,0,No tuvo,Sin Llamada de primer contacto,0,0,5,1,1,0,3,0,0,0,1,Hecha,No Finalizado,Anual,0
+207949.0,B,9,5,4,1,3,1,0,Efectiva,Fuera del rango,0,0,8,1,1,0,7,0,0,0,0,No tuvo,No Finalizado,Mensual,0
+210560.0,A,18,9,8,1,7,1,1,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+210627.0,B,6,3,3,0,2,1,0,Efectiva,Fuera del rango,0,0,5,0,0,0,2,1,0,2,0,Hecha,No Finalizado,Anual,0
+210687.0,A,5,0,0,0,4,1,0,No tuvo,Sin Llamada de primer contacto,0,0,1,0,0,0,0,0,0,1,0,Hecha,No Finalizado,Anual,0
+210748.0,B,3,1,1,0,2,0,0,No tuvo,Sin Llamada de primer contacto,0,0,5,0,0,0,2,1,0,2,0,Hecha,No Finalizado,Anual,0
+210800.0,C,19,9,3,6,9,1,0,Efectiva,Fuera del rango,0,0,7,1,1,0,2,1,0,2,1,Hecha,No Finalizado,Anual,0
+215878.0,B,8,3,3,0,4,1,0,Efectiva,Dentro del rango,0,0,10,1,1,0,2,0,0,7,0,Hecha,No Finalizado,Anual,0
+215885.0,B,9,2,2,0,6,1,0,Efectiva,Dentro del rango,0,0,2,0,0,0,1,1,0,0,0,No tuvo,No Finalizado,Anual,0
+216050.0,B,23,15,12,3,7,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+217497.0,C,20,14,6,8,5,1,0,No Efectiva,Fuera del rango,0,0,2,1,1,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+217521.0,B,27,16,13,3,10,1,0,Efectiva,Fuera del rango,0,0,4,0,0,0,2,1,0,1,0,Hecha,No Finalizado,Anual,0
+217858.0,B,6,4,4,0,1,1,0,No tuvo,Sin Llamada de primer contacto,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+217861.0,A,4,2,2,0,1,1,0,Efectiva,Dentro del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+217955.0,B,18,6,4,2,11,1,0,Efectiva,Fuera del rango,0,0,6,0,0,0,2,1,0,2,1,Hecha,No Finalizado,Anual,0
+218011.0,B,15,8,6,2,6,1,0,No Efectiva,Fuera del rango,0,0,4,0,0,0,4,0,0,0,0,No tuvo,No Finalizado,Anual,0
+218019.0,B,10,4,3,1,5,1,0,Efectiva,Dentro del rango,0,0,4,2,0,2,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+218023.0,B,6,2,1,1,3,1,0,No Efectiva,Fuera del rango,0,0,4,0,0,0,3,0,0,1,0,Hecha,No Finalizado,Anual,0
+218133.0,A,17,5,4,1,11,1,0,No Efectiva,Fuera del rango,0,0,4,1,1,0,1,1,0,1,0,Hecha,No Finalizado,Anual,0
+218243.0,B,8,3,3,0,4,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,1,0,0,0,0,No tuvo,No Finalizado,Anual,0
+218264.0,B,4,3,2,1,0,1,0,No Efectiva,Fuera del rango,0,0,11,2,0,2,7,1,0,1,0,Hecha,No Finalizado,Anual,0
+218274.0,B,8,5,5,0,2,1,0,Efectiva,Dentro del rango,0,0,3,2,0,2,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+218416.0,B,27,18,8,10,8,1,0,No Efectiva,Fuera del rango,0,0,10,3,1,2,6,1,0,0,0,No tuvo,No Finalizado,Anual,0
+218423.0,B,5,2,2,0,2,1,0,Efectiva,Dentro del rango,0,0,2,0,0,0,0,2,0,0,0,No tuvo,No Finalizado,Anual,0
+218426.0,C,13,9,4,5,3,1,0,No Efectiva,Fuera del rango,0,0,7,2,1,1,4,1,0,0,0,No tuvo,No Finalizado,Mensual,0
+218490.0,C,13,9,6,3,3,1,0,No Efectiva,Fuera del rango,0,0,10,3,2,1,3,1,0,1,2,Hecha,No Finalizado,Anual,0
+218558.0,B,11,6,4,2,5,0,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Mensual,1
+218611.0,B,19,13,8,5,4,1,1,Efectiva,Dentro del rango,0,0,4,1,0,1,2,1,0,0,0,No tuvo,No Finalizado,Anual,0
+218630.0,C,9,5,2,3,3,1,0,No Efectiva,Dentro del rango,0,0,7,2,0,2,3,1,0,1,0,Hecha,No Finalizado,Anual,0
+218636.0,C,3,1,1,0,1,1,0,No tuvo,Sin Llamada de primer contacto,0,0,8,2,0,2,5,1,0,0,0,No tuvo,No Finalizado,Anual,0
+218872.0,A,14,7,5,2,6,1,0,Efectiva,Fuera del rango,0,0,4,2,1,1,1,1,0,0,0,No tuvo,No Finalizado,Anual,0
+218938.0,B,15,8,7,1,6,1,0,No Efectiva,Fuera del rango,0,0,7,3,0,3,3,0,0,1,0,Hecha,No Finalizado,Mensual,0
+218987.0,C,5,2,2,0,1,1,1,Efectiva,Dentro del rango,0,0,3,0,0,0,0,1,1,0,1,Hecha,No Finalizado,Anual,0
+219178.0,A,20,8,7,1,11,1,0,No Efectiva,Fuera del rango,0,0,3,1,1,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+219291.0,B,10,6,4,2,2,2,0,No Efectiva,Fuera del rango,0,1,9,6,1,5,3,0,0,0,0,No tuvo,No Finalizado,Anual,0
+219293.0,B,4,2,2,0,1,1,0,No tuvo,Sin Llamada de primer contacto,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+219298.0,B,19,13,5,8,5,1,0,Efectiva,Fuera del rango,0,0,6,2,0,2,2,1,0,1,0,Hecha,No Finalizado,Anual,0
+219385.0,C,7,3,2,1,3,1,0,No Efectiva,Fuera del rango,0,0,2,0,0,0,2,0,0,0,0,No tuvo,No Finalizado,Anual,0
+219392.0,B,8,4,3,1,2,2,0,Efectiva,Dentro del rango,1,1,2,2,1,1,0,0,0,0,0,No tuvo,Finalizado,Anual,0
+219724.0,B,7,4,3,1,2,1,0,No Efectiva,Fuera del rango,0,0,18,12,0,12,5,1,0,0,0,No tuvo,No Finalizado,Anual,0
+220113.0,B,8,3,2,1,3,2,0,No Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+220237.0,B,8,4,4,0,3,1,0,No tuvo,Sin Llamada de primer contacto,0,0,17,2,1,1,7,1,0,7,0,Hecha,No Finalizado,Mensual,0
+220338.0,C,15,7,4,3,7,1,0,No Efectiva,Fuera del rango,0,0,4,2,1,1,0,0,1,0,1,Hecha,No Finalizado,Anual,0
+220420.0,C,15,5,5,0,9,1,0,Efectiva,Dentro del rango,0,0,5,1,0,1,1,1,0,1,1,Hecha,No Finalizado,Anual,0
+220512.0,B,22,11,8,3,10,1,0,No Efectiva,Fuera del rango,0,0,2,0,0,0,1,1,0,0,0,No tuvo,No Finalizado,Anual,0
+220601.0,B,16,10,9,1,5,1,0,No Efectiva,Fuera del rango,0,0,4,2,2,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+220636.0,B,8,3,3,0,4,1,0,Efectiva,Dentro del rango,0,0,3,1,1,0,2,0,0,0,0,No tuvo,No Finalizado,Anual,0
+220695.0,C,5,3,3,0,1,1,0,Efectiva,Fuera del rango,0,0,5,1,1,0,2,1,0,1,0,Hecha,No Finalizado,Anual,0
+220699.0,A,4,1,1,0,2,1,0,No tuvo,Sin Llamada de primer contacto,0,0,13,7,3,4,3,1,0,2,0,Hecha,No Finalizado,Anual,0
+220705.0,C,4,1,1,0,2,1,0,Efectiva,Dentro del rango,0,0,3,2,1,1,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+220764.0,B,6,1,1,0,3,2,0,Efectiva,Dentro del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+220769.0,A,9,4,4,0,4,1,0,No tuvo,Sin Llamada de primer contacto,0,0,4,3,1,2,1,0,0,0,0,No tuvo,No Finalizado,Anual,0
+220885.0,C,9,7,7,0,0,2,0,Efectiva,Fuera del rango,0,0,2,0,0,0,2,0,0,0,0,No tuvo,Finalizado,Anual,0
+220895.0,A,24,10,8,2,12,1,1,Efectiva,Fuera del rango,0,0,3,0,0,0,0,1,0,2,0,Hecha,No Finalizado,Anual,0
+220954.0,A,12,4,4,0,7,1,0,No tuvo,Sin Llamada de primer contacto,0,0,4,2,2,0,1,1,0,0,0,No tuvo,No Finalizado,Anual,0
+221012.0,C,7,4,3,1,2,1,0,No Efectiva,Dentro del rango,0,0,3,1,0,1,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+221053.0,B,12,5,3,2,4,2,1,Efectiva,Fuera del rango,0,1,8,1,1,0,6,0,0,1,0,Hecha,Finalizado,Mensual,0
+221105.0,B,14,8,7,1,5,1,0,Efectiva,Fuera del rango,0,0,7,4,0,4,2,1,0,0,0,No tuvo,No Finalizado,Anual,0
+221154.0,B,22,14,6,8,7,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Mensual,1
+221167.0,B,7,4,3,1,2,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+221307.0,A,12,5,2,3,6,1,0,Efectiva,Dentro del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Otros,0
+221368.0,B,17,11,9,2,5,1,0,Efectiva,Fuera del rango,0,0,3,0,0,0,1,1,0,0,1,Hecha,No Finalizado,Anual,0
+221390.0,B,5,2,2,0,2,1,0,No tuvo,Sin Llamada de primer contacto,0,0,3,0,0,0,0,1,0,1,1,Hecha,No Finalizado,Anual,0
+221486.0,B,2,1,1,0,0,1,0,Efectiva,Dentro del rango,0,0,4,1,1,0,1,1,0,0,1,Hecha,No Finalizado,Anual,0
+221498.0,C,3,1,1,0,2,0,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+221624.0,B,6,3,2,1,2,1,0,No Efectiva,Fuera del rango,0,0,4,1,1,0,1,1,0,0,1,Hecha,No Finalizado,Anual,0
+221897.0,A,10,5,3,2,4,1,0,No Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Mensual,1
+221976.0,B,60,28,12,16,27,5,0,No Efectiva,Fuera del rango,0,1,7,2,1,1,4,1,0,0,0,No tuvo,Finalizado,Anual,0
+222012.0,B,6,4,1,3,1,1,0,Efectiva,Fuera del rango,0,0,2,1,0,1,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+222098.0,B,16,6,6,0,6,1,3,Efectiva,Fuera del rango,0,1,3,2,2,0,1,0,0,0,0,No tuvo,Finalizado,Anual,0
+222469.0,B,18,11,5,6,5,0,2,Efectiva,Fuera del rango,0,1,5,2,1,1,3,0,0,0,0,No tuvo,No Finalizado,Mensual,1
+222593.0,C,22,16,16,0,5,1,0,Efectiva,Fuera del rango,0,0,3,3,3,0,0,0,0,0,0,No tuvo,No Finalizado,Anual,0
+222805.0,C,8,4,4,0,3,1,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,0,1,Hecha,No Finalizado,Anual,0
+222847.0,B,11,5,4,1,4,2,0,Efectiva,Fuera del rango,0,1,13,2,2,0,11,0,0,0,0,No tuvo,No Finalizado,Anual,0
+222853.0,A,29,12,8,4,13,1,3,Efectiva,Fuera del rango,0,0,4,2,2,0,1,0,0,0,1,Hecha,No Finalizado,Anual,0
+223050.0,B,6,6,2,4,0,0,0,No Efectiva,Fuera del rango,0,0,11,3,3,0,8,0,0,0,0,No tuvo,No Finalizado,Anual,0
+223110.0,B,42,21,14,7,18,3,0,Efectiva,Fuera del rango,0,1,8,0,0,0,8,0,0,0,0,No tuvo,Finalizado,Anual,0
+223124.0,A,11,5,3,2,4,2,0,Efectiva,Fuera del rango,0,1,12,4,3,1,4,0,0,1,3,Hecha,No Finalizado,Mensual,1
+223187.0,B,21,13,7,6,7,1,0,No Efectiva,Fuera del rango,0,0,2,1,0,1,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+223301.0,B,12,3,1,2,7,2,0,No Efectiva,Fuera del rango,0,0,5,3,0,3,1,1,0,0,0,No tuvo,No Finalizado,Anual,0
+223399.0,A,7,1,1,0,5,1,0,Efectiva,Fuera del rango,0,0,8,1,1,0,3,1,0,3,0,Hecha,No Finalizado,Anual,0
+223431.0,B,1,0,0,0,1,0,0,No tuvo,Sin Llamada de primer contacto,0,0,3,1,0,1,1,1,0,0,0,No tuvo,No Finalizado,Anual,0
+223485.0,B,12,1,1,0,10,1,0,No tuvo,Sin Llamada de primer contacto,0,0,4,0,0,0,1,0,1,1,1,Hecha,No Finalizado,Anual,0
+223727.0,A,36,20,7,13,15,1,0,No Efectiva,Fuera del rango,0,0,18,10,1,9,8,0,0,0,0,No tuvo,No Finalizado,Anual,0
+223868.0,A,49,27,7,20,19,2,1,Efectiva,Fuera del rango,0,0,13,3,1,2,7,0,0,3,0,Hecha,Finalizado,Mensual,0
+224016.0,A,16,8,3,5,8,0,0,No Efectiva,Fuera del rango,0,0,1,0,0,0,1,0,0,0,0,No tuvo,No Finalizado,Anual,0
+224055.0,B,4,0,0,0,4,0,0,No tuvo,Sin Llamada de primer contacto,0,0,3,0,0,0,1,0,1,0,1,Hecha,No Finalizado,Anual,0
+224266.0,C,1,1,1,0,0,0,0,No tuvo,Sin Llamada de primer contacto,0,0,6,2,0,2,0,1,0,3,0,Hecha,No Finalizado,Anual,0
+224358.0,B,36,22,13,9,13,1,0,No Efectiva,Fuera del rango,0,0,10,5,4,1,3,0,0,2,0,Hecha,Finalizado,Anual,0
+224363.0,C,13,8,7,1,4,1,0,Efectiva,Fuera del rango,0,0,5,0,0,0,0,1,0,3,1,Hecha,No Finalizado,Anual,0
+224492.0,B,10,5,4,1,3,2,0,No Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+224521.0,A,5,3,3,0,1,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,1,0,0,0,0,No tuvo,No Finalizado,Anual,0
+224522.0,C,14,1,1,0,12,1,0,No tuvo,Sin Llamada de primer contacto,0,0,5,1,0,1,1,0,0,2,1,Hecha,No Finalizado,Anual,0
+224596.0,B,16,16,6,10,0,0,0,No Efectiva,Dentro del rango,0,0,3,3,2,1,0,0,0,0,0,No tuvo,No Finalizado,Anual,0
+224688.0,B,1,0,0,0,1,0,0,No tuvo,Sin Llamada de primer contacto,0,0,4,1,1,0,0,1,0,2,0,Hecha,No Finalizado,Anual,0
+224709.0,A,27,5,2,3,21,1,0,Efectiva,Dentro del rango,0,0,4,1,0,1,0,0,1,2,0,Hecha,No Finalizado,Mensual,1
+224810.0,C,16,11,8,3,3,2,0,No Efectiva,Fuera del rango,0,0,12,6,3,3,5,1,0,0,0,No tuvo,Finalizado,Anual,0
+224879.0,B,6,4,4,0,1,1,0,Efectiva,Fuera del rango,0,0,4,2,0,2,0,1,0,0,1,Hecha,No Finalizado,Anual,0
+224934.0,A,27,14,4,10,11,2,0,Efectiva,Fuera del rango,0,0,2,1,1,0,0,0,0,1,0,Hecha,Finalizado,Anual,0
+225102.0,B,17,13,8,5,3,1,0,Efectiva,Fuera del rango,0,0,6,2,2,0,1,0,1,1,1,Hecha,No Finalizado,Anual,0
+225418.0,B,14,11,10,1,2,1,0,Efectiva,Fuera del rango,0,0,5,0,0,0,1,0,0,2,2,Hecha,No Finalizado,Anual,0
+225458.0,B,7,4,3,1,2,1,0,No Efectiva,Dentro del rango,0,0,3,0,0,0,3,0,0,0,0,No tuvo,No Finalizado,Anual,0
+225476.0,B,11,8,7,1,2,1,0,No Efectiva,Fuera del rango,0,0,4,3,3,0,1,0,0,0,0,No tuvo,No Finalizado,Anual,0
+225619.0,B,6,3,3,0,2,1,0,Efectiva,Dentro del rango,0,0,12,4,1,3,3,0,0,2,3,Hecha,No Finalizado,Anual,0
+225727.0,B,17,10,6,4,7,0,0,No Efectiva,Fuera del rango,0,0,2,0,0,0,0,1,0,1,0,Hecha,No Finalizado,Anual,0
+225777.0,B,12,9,1,8,2,1,0,No Efectiva,Fuera del rango,0,0,11,6,1,5,5,0,0,0,0,No tuvo,No Finalizado,Anual,0
+225837.0,B,7,5,5,0,1,1,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,0,0,2,0,Hecha,No Finalizado,Anual,0
+225882.0,B,2,1,1,0,1,0,0,Efectiva,Fuera del rango,0,0,2,1,1,0,1,0,0,0,0,No tuvo,No Finalizado,Anual,0
+225921.0,A,10,4,2,2,6,0,0,Efectiva,Fuera del rango,0,0,2,0,0,0,1,0,0,1,0,Hecha,No Finalizado,Anual,0
+226070.0,B,5,3,1,2,1,1,0,Efectiva,Fuera del rango,0,0,1,1,0,1,0,0,0,0,0,No tuvo,No Finalizado,Anual,0
+226125.0,B,2,1,1,0,1,0,0,Efectiva,Dentro del rango,0,0,3,0,0,0,2,1,0,0,0,No tuvo,No Finalizado,Anual,0
+226653.0,B,5,2,2,0,2,1,0,Efectiva,Dentro del rango,0,0,2,0,0,0,0,0,0,2,0,Hecha,No Finalizado,Anual,0
+226829.0,A,18,7,5,2,10,1,0,No Efectiva,Fuera del rango,0,0,2,1,1,0,0,0,0,1,0,Hecha,No Finalizado,Anual,0
+227003.0,B,10,4,3,1,5,1,0,Efectiva,Dentro del rango,0,0,4,0,0,0,4,0,0,0,0,No tuvo,No Finalizado,Anual,0
+227068.0,A,17,9,8,1,7,1,0,Efectiva,Fuera del rango,0,0,9,5,5,0,1,1,0,1,1,Hecha,No Finalizado,Anual,0
+227111.0,B,6,1,1,0,4,1,0,Efectiva,Dentro del rango,0,0,8,3,1,2,3,0,0,2,0,Hecha,No Finalizado,Anual,0
+227492.0,B,16,8,6,2,7,1,0,No Efectiva,Fuera del rango,0,0,2,1,1,0,0,0,0,1,0,Hecha,No Finalizado,Anual,0
+227560.0,B,4,2,2,0,1,1,0,Efectiva,Dentro del rango,0,0,2,1,1,0,1,0,0,0,0,No tuvo,No Finalizado,Anual,0
+228019.0,C,11,5,1,4,5,1,0,Efectiva,Fuera del rango,0,0,3,1,1,0,0,1,0,0,1,Hecha,No Finalizado,Mensual,1
+228230.0,A,22,15,12,3,6,1,0,Efectiva,Fuera del rango,0,0,2,1,0,1,0,1,0,0,0,No tuvo,Finalizado,Anual,0
+228264.0,C,10,4,4,0,5,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+228269.0,A,13,8,7,1,4,1,0,Efectiva,Fuera del rango,0,0,16,4,4,0,5,1,0,6,0,Hecha,No Finalizado,Anual,0
+228306.0,B,20,8,6,2,11,1,0,Efectiva,Fuera del rango,0,0,12,2,1,1,5,1,0,3,1,Hecha,No Finalizado,Anual,0
+228351.0,B,14,11,7,4,2,1,0,No Efectiva,Fuera del rango,0,0,12,6,1,5,1,1,0,2,2,Hecha,No Finalizado,Anual,0
+228428.0,B,23,13,11,2,8,2,0,Efectiva,Dentro del rango,0,0,9,7,2,5,0,0,0,0,2,Hecha,No Finalizado,Mensual,1
+228768.0,B,12,7,2,5,4,1,0,Efectiva,Fuera del rango,0,0,1,0,0,0,0,1,0,0,0,No tuvo,No Finalizado,Anual,0
+229200.0,B,1,1,1,0,0,0,0,No tuvo,Sin Llamada de primer contacto,0,0,3,2,2,0,0,0,0,0,1,Hecha,No Finalizado,Mensual,1
+229260.0,B,8,4,3,1,3,1,0,Efectiva,Dentro del rango,0,0,8,5,4,1,2,0,0,1,0,Hecha,No Finalizado,Anual,0
+229633.0,C,6,2,1,1,4,0,0,Efectiva,Fuera del rango,0,0,10,3,3,0,6,0,0,1,0,Hecha,No Finalizado,Mensual,0
+229727.0,B,4,3,3,0,0,1,0,Efectiva,Fuera del rango,0,0,1,1,1,0,0,0,0,0,0,No tuvo,No Finalizado,Mensual,1
+229820.0,B,11,8,7,1,2,1,0,Efectiva,Fuera del rango,0,0,1,1,1,0,0,0,0,0,0,No tuvo,No Finalizado,Anual,0
+229964.0,A,43,17,14,3,25,1,0,Efectiva,Dentro del rango,0,0,5,3,3,0,2,0,0,0,0,No tuvo,No Finalizado,Anual,0
+229969.0,C,9,5,5,0,3,1,0,Efectiva,Fuera del rango,0,0,5,3,1,2,2,0,0,0,0,No tuvo,Finalizado,Anual,0
+230099.0,A,10,8,3,5,1,1,0,Sin Avance,Fuera del rango,0,0,3,1,1,0,0,1,0,1,0,Hecha,Finalizado,Anual,0
+230134.0,B,8,2,1,1,5,1,0,Efectiva,Fuera del rango,0,0,5,0,0,0,1,1,0,2,1,Hecha,No Finalizado,Anual,0
+230275.0,B,9,3,2,1,5,1,0,No Efectiva,Fuera del rango,0,0,7,5,2,3,1,1,0,0,0,No tuvo,No Finalizado,Anual,0
+230298.0,B,9,2,0,2,5,2,0,No Efectiva,Dentro del rango,1,1,21,5,2,3,14,0,0,2,0,Hecha,Finalizado,Anual,0
+230520.0,B,10,6,4,2,3,1,0,Efectiva,Fuera del rango,0,0,5,0,0,0,4,0,0,1,0,Hecha,No Finalizado,Anual,0
+230523.0,A,13,3,3,0,9,1,0,Efectiva,Fuera del rango,0,0,8,6,2,4,2,0,0,0,0,No tuvo,No Finalizado,Mensual,1
+230547.0,C,4,3,2,1,0,1,0,Efectiva,Fuera del rango,0,0,8,7,2,5,1,0,0,0,0,No tuvo,No Finalizado,Mensual,1
+230579.0,B,8,5,4,1,2,1,0,Efectiva,Fuera del rango,0,0,11,1,1,0,9,0,0,1,0,Hecha,No Finalizado,Mensual,0
+230605.0,A,7,3,2,1,4,0,0,No Efectiva,Fuera del rango,0,0,1,1,1,0,0,0,0,0,0,No tuvo,No Finalizado,Anual,0
+230839.0,C,5,2,1,1,2,1,0,Efectiva,Fuera del rango,0,0,7,4,2,2,0,1,0,1,1,Hecha,No Finalizado,Mensual,1
+231137.0,B,6,3,2,1,1,2,0,Efectiva,Fuera del rango,0,0,7,2,1,1,5,0,0,0,0,No tuvo,No Finalizado,Anual,0
+231203.0,A,13,6,2,4,6,1,0,Efectiva,Fuera del rango,0,0,4,1,1,0,0,0,0,3,0,Hecha,No Finalizado,Anual,0
+231254.0,B,5,2,2,0,2,1,0,Efectiva,Dentro del rango,0,0,3,1,1,0,0,0,0,2,0,Hecha,No Finalizado,Anual,0
+231328.0,B,12,4,3,1,6,1,1,Efectiva,Fuera del rango,0,0,37,20,7,13,17,0,0,0,0,No tuvo,No Finalizado,Anual,0
+231344.0,B,5,3,2,1,1,1,0,Efectiva,Fuera del rango,0,0,2,2,1,1,0,0,0,0,0,No tuvo,No Finalizado,Anual,0
+231468.0,B,23,7,3,4,15,1,0,Efectiva,Fuera del rango,0,0,12,6,2,4,6,0,0,0,0,No tuvo,No Finalizado,Mensual,0
+231670.0,B,1,1,1,0,0,0,0,No tuvo,Sin Llamada de primer contacto,0,0,3,1,1,0,1,0,0,0,1,Hecha,No Finalizado,Anual,0
+231700.0,B,9,3,2,1,6,0,0,No Efectiva,Fuera del rango,0,0,1,0,0,0,0,0,0,1,0,Hecha,Finalizado,Anual,0
+232058.0,B,6,3,1,2,3,0,0,No tuvo,Sin Llamada de primer contacto,0,0,6,1,1,0,5,0,0,0,0,No tuvo,No Finalizado,Mensual,0
+232126.0,B,24,11,5,6,12,1,0,Efectiva,Dentro del rango,0,0,6,1,0,1,4,0,0,1,0,Hecha,Finalizado,Mensual,1
+232135.0,C,2,1,1,0,1,0,0,No tuvo,Sin Llamada de primer contacto,0,0,7,6,1,5,1,0,0,0,0,No tuvo,No Finalizado,Mensual,1
+232300.0,B,5,0,0,0,4,1,0,No tuvo,Sin Llamada de primer contacto,0,0,18,7,3,4,8,0,0,3,0,Hecha,Finalizado,Anual,0
+232621.0,B,14,5,3,2,7,2,0,No Efectiva,Fuera del rango,0,1,1,1,1,0,0,0,0,0,0,No tuvo,No Finalizado,Anual,0
+232904.0,B,8,4,3,1,2,2,0,Efectiva,Dentro del rango,0,1,3,1,0,1,1,0,0,1,0,Hecha,Finalizado,Anual,0
+232931.0,A,12,6,6,0,6,0,0,Efectiva,Fuera del rango,0,0,2,0,0,0,0,0,0,2,0,Hecha,Finalizado,Anual,0
+233051.0,B,4,2,2,0,1,1,0,Efectiva,Dentro del rango,0,0,3,0,0,0,0,1,0,1,1,Hecha,No Finalizado,Anual,0
+233230.0,B,2,0,0,0,2,0,0,No tuvo,Sin Llamada de primer contacto,0,0,6,4,1,3,2,0,0,0,0,No tuvo,Finalizado,Anual,0
+233231.0,B,1,1,1,0,0,0,0,No tuvo,Sin Llamada de primer contacto,1,0,2,2,2,0,0,0,0,0,0,No tuvo,Finalizado,Anual,0
+233267.0,B,5,1,1,0,2,2,0,Efectiva,Fuera del rango,1,1,2,1,1,0,1,0,0,0,0,No tuvo,Finalizado,Anual,0
+233341.0,B,7,2,1,1,3,2,0,Efectiva,Dentro del rango,1,1,7,3,1,2,2,0,0,1,1,Hecha,No Finalizado,Mensual,1
+233381.0,B,8,1,0,1,5,2,0,No Efectiva,Dentro del rango,1,1,2,0,0,0,0,0,0,1,1,Hecha,Finalizado,Anual,0
+233383.0,B,3,1,1,0,1,1,0,Efectiva,Dentro del rango,1,0,4,1,1,0,1,1,0,1,0,Hecha,Finalizado,Anual,0
+233548.0,B,11,3,3,0,6,2,0,Efectiva,Dentro del rango,1,1,1,1,1,0,0,0,0,0,0,No tuvo,Finalizado,Anual,0
+233551.0,B,1,1,1,0,0,0,0,No tuvo,Sin Llamada de primer contacto,0,0,5,1,1,0,4,0,0,0,0,No tuvo,Finalizado,Anual,0
+234417.0,B,6,3,3,0,2,1,0,No tuvo,Sin Llamada de primer contacto,1,0,2,0,0,0,0,1,0,0,1,Hecha,Finalizado,Anual,0
+234441.0,B,7,3,3,0,3,1,0,No tuvo,Sin Llamada de primer contacto,1,0,11,3,1,2,6,1,0,1,0,Hecha,Finalizado,Mensual,0
+234459.0,A,2,0,0,0,1,1,0,No tuvo,Sin Llamada de primer contacto,1,0,4,1,1,0,1,0,0,2,0,Hecha,Finalizado,Mensual,0
+234881.0,A,17,3,2,1,13,1,0,No tuvo,Sin Llamada de primer contacto,1,0,16,6,4,2,7,0,0,1,2,Hecha,Finalizado,Mensual,0
+234896.0,A,2,1,0,1,0,1,0,No Efectiva,Fuera del rango,1,0,5,0,0,0,5,0,0,0,0,No tuvo,Finalizado,Anual,0
+234934.0,B,15,7,5,2,5,3,0,Efectiva,Dentro del rango,1,1,8,3,2,1,4,1,0,0,0,No tuvo,No Finalizado,Mensual,1
+235241.0,B,9,3,2,1,4,2,0,Efectiva,Dentro del rango,1,1,9,6,3,3,0,0,0,3,0,Hecha,Finalizado,Anual,0
+235266.0,B,2,0,0,0,2,0,0,No tuvo,Sin Llamada de primer contacto,0,0,5,4,1,3,1,0,0,0,0,No tuvo,No Finalizado,Mensual,1
+235389.0,A,9,3,3,0,4,2,0,No tuvo,Sin Llamada de primer contacto,1,1,11,6,3,3,5,0,0,0,0,No tuvo,Finalizado,Mensual,0
+235475.0,A,11,3,0,3,8,0,0,No tuvo,Sin Llamada de primer contacto,0,0,12,4,3,1,8,0,0,0,0,No tuvo,Finalizado,Mensual,0
+235593.0,B,6,2,1,1,2,2,0,Efectiva,Dentro del rango,1,1,58,24,7,17,18,0,1,7,8,Hecha,Finalizado,Mensual,0
+235610.0,B,6,2,1,1,2,2,0,No Efectiva,Dentro del rango,1,1,2,2,0,2,0,0,0,0,0,No tuvo,Finalizado,Anual,0
+235771.0,B,10,3,2,1,5,2,0,No Efectiva,Dentro del rango,1,1,29,10,4,6,14,0,0,4,1,Hecha,Finalizado,Mensual,0
+235799.0,A,13,9,9,0,2,2,0,Efectiva,Fuera del rango,1,1,1,0,0,0,0,0,0,1,0,Hecha,Finalizado,Anual,0
+236046.0,A,5,2,2,0,1,2,0,Efectiva,Dentro del rango,1,1,4,2,2,0,0,0,0,2,0,Hecha,No Finalizado,Anual,0
+236136.0,B,1,1,1,0,0,0,0,No tuvo,Sin Llamada de primer contacto,1,0,4,3,0,3,1,0,0,0,0,No tuvo,Finalizado,Mensual,1
+236336.0,B,6,2,1,1,4,0,0,No tuvo,Sin Llamada de primer contacto,1,0,2,1,1,0,0,0,0,1,0,Hecha,Finalizado,Anual,0
+236340.0,B,9,5,4,1,2,2,0,Efectiva,Dentro del rango,1,1,1,0,0,0,0,1,0,0,0,No tuvo,Finalizado,Anual,0
+236345.0,A,10,4,3,1,4,2,0,No Efectiva,Dentro del rango,1,1,4,1,1,0,2,0,0,1,0,Hecha,Finalizado,Anual,0
+236795.0,A,5,2,2,0,1,2,0,Efectiva,Dentro del rango,1,1,8,5,3,2,3,0,0,0,0,No tuvo,No Finalizado,Anual,0
+236932.0,B,11,5,3,2,4,2,0,No Efectiva,Fuera del rango,1,1,25,7,4,3,16,0,0,2,0,Hecha,Finalizado,Mensual,0
+237249.0,B,3,1,0,1,2,0,0,No tuvo,Sin Llamada de primer contacto,1,0,11,3,1,2,8,0,0,0,0,No tuvo,Finalizado,Mensual,0
+237354.0,B,8,1,1,0,7,0,0,No tuvo,Sin Llamada de primer contacto,1,0,1,0,0,0,0,0,0,0,1,Hecha,Finalizado,Anual,0
+237370.0,B,10,4,2,2,4,2,0,Efectiva,Fuera del rango,1,1,14,8,0,8,5,0,0,1,0,Hecha,No Finalizado,Mensual,0
+237502.0,B,6,4,4,0,0,2,0,Efectiva,Dentro del rango,1,1,4,1,1,0,3,0,0,0,0,No tuvo,Finalizado,Mensual,1
+237803.0,A,8,3,2,1,3,2,0,Efectiva,Dentro del rango,1,1,8,3,2,1,5,0,0,0,0,No tuvo,Finalizado,Mensual,1
+238381.0,B,4,1,1,0,1,2,0,Efectiva,Dentro del rango,1,1,3,1,1,0,1,0,0,1,0,Hecha,Finalizado,Anual,0
+238423.0,A,2,1,1,0,1,0,0,No tuvo,Sin Llamada de primer contacto,1,0,22,9,3,6,11,0,0,2,0,Hecha,Finalizado,Mensual,0
+238775.0,B,10,3,1,2,5,2,0,No tuvo,Sin Llamada de primer contacto,1,1,10,1,0,1,9,0,0,0,0,No tuvo,Finalizado,Mensual,0
+239529.0,A,17,7,4,3,8,2,0,No Efectiva,Dentro del rango,1,1,15,6,2,4,9,0,0,0,0,No tuvo,Finalizado,Anual,0
+239852.0,B,9,7,6,1,0,2,0,Sin Avance,Dentro del rango,1,1,18,3,2,1,15,0,0,0,0,No tuvo,Finalizado,Mensual,0
+239861.0,A,4,1,1,0,2,1,0,No tuvo,Sin Llamada de primer contacto,1,0,16,2,2,0,9,0,0,5,0,Hecha,Finalizado,Anual,0
+240051.0,B,6,1,1,0,3,2,0,Efectiva,Dentro del rango,1,1,12,4,3,1,8,0,0,0,0,No tuvo,Finalizado,Anual,0
+240057.0,B,6,3,3,0,1,2,0,Efectiva,Fuera del rango,1,1,10,4,2,2,6,0,0,0,0,No tuvo,Finalizado,Mensual,0
+240136.0,A,4,2,0,2,2,0,0,No tuvo,Sin Llamada de primer contacto,1,0,21,8,1,7,12,1,0,0,0,No tuvo,Finalizado,Mensual,0
+240353.0,B,2,0,0,0,2,0,0,No tuvo,Sin Llamada de primer contacto,1,0,25,10,5,5,15,0,0,0,0,No tuvo,Finalizado,Mensual,0
+240463.0,B,6,1,1,0,3,2,0,Efectiva,Dentro del rango,1,1,3,0,0,0,3,0,0,0,0,No tuvo,Finalizado,Anual,0
+240510.0,A,6,2,2,0,3,1,0,No tuvo,Sin Llamada de primer contacto,1,0,4,0,0,0,3,0,0,1,0,Hecha,Finalizado,Mensual,0
+240557.0,B,7,0,0,0,5,2,0,No tuvo,Sin Llamada de primer contacto,1,1,9,0,0,0,8,0,0,1,0,Hecha,Finalizado,Anual,0
+240704.0,B,2,2,2,0,0,0,0,No tuvo,Sin Llamada de primer contacto,1,0,2,0,0,0,1,0,0,1,0,Hecha,Finalizado,Anual,0
+240898.0,B,11,5,3,2,4,2,0,No Efectiva,Fuera del rango,1,1,16,8,0,8,6,0,0,2,0,Hecha,Finalizado,Anual,0
+240933.0,B,7,1,1,0,6,0,0,Efectiva,Dentro del rango,1,0,18,5,4,1,11,0,0,2,0,Hecha,Finalizado,Mensual,0
+241224.0,A,10,4,4,0,6,0,0,No tuvo,Sin Llamada de primer contacto,1,0,12,4,1,3,7,0,0,0,1,Hecha,Finalizado,Mensual,0
+241449.0,A,5,3,3,0,2,0,0,No tuvo,Sin Llamada de primer contacto,1,0,17,2,2,0,11,0,0,4,0,Hecha,Finalizado,Mensual,0
+241504.0,B,1,1,1,0,0,0,0,Efectiva,Fuera del rango,1,0,25,8,2,6,16,0,0,1,0,Hecha,Finalizado,Mensual,0
+241793.0,A,9,1,1,0,6,2,0,Efectiva,Dentro del rango,1,1,4,0,0,0,1,1,0,2,0,Hecha,Finalizado,Anual,0
+241862.0,B,1,0,0,0,1,0,0,No tuvo,Sin Llamada de primer contacto,1,0,10,8,2,6,2,0,0,0,0,No tuvo,Finalizado,Mensual,1
+242040.0,B,5,1,1,0,2,2,0,Efectiva,Dentro del rango,1,1,5,1,1,0,3,0,0,1,0,Hecha,Finalizado,Mensual,0
+242091.0,A,3,0,0,0,2,1,0,No tuvo,Sin Llamada de primer contacto,1,0,4,1,0,1,3,0,0,0,0,No tuvo,Finalizado,Anual,0
+242320.0,A,8,4,4,0,3,1,0,Efectiva,Dentro del rango,1,0,4,1,1,0,2,1,0,0,0,No tuvo,Finalizado,Anual,0
+242538.0,B,9,0,0,0,7,2,0,No tuvo,Sin Llamada de primer contacto,1,1,11,2,2,0,9,0,0,0,0,No tuvo,Finalizado,Mensual,0
+242590.0,B,5,3,3,0,0,2,0,Efectiva,Fuera del rango,1,1,9,5,1,4,3,0,0,1,0,Hecha,Finalizado,Mensual,0
+243018.0,B,4,1,1,0,1,2,0,Efectiva,Dentro del rango,1,1,14,2,2,0,8,1,0,1,2,Hecha,Finalizado,Mensual,1
+243173.0,B,1,1,1,0,0,0,0,No tuvo,Sin Llamada de primer contacto,1,0,5,1,1,0,4,0,0,0,0,No tuvo,Finalizado,Mensual,0
+243510.0,B,8,2,1,1,4,2,0,Efectiva,Fuera del rango,1,1,2,0,0,0,2,0,0,0,0,No tuvo,Finalizado,Mensual,0
+243554.0,A,7,3,2,1,2,2,0,Efectiva,Fuera del rango,1,1,1,0,0,0,0,1,0,0,0,No tuvo,Finalizado,Mensual,0
+243907.0,B,1,0,0,0,1,0,0,No tuvo,Sin Llamada de primer contacto,0,0,5,2,2,0,3,0,0,0,0,No tuvo,Finalizado,Anual,0
+243947.0,B,4,1,1,0,1,2,0,Efectiva,Dentro del rango,1,1,12,2,1,1,2,1,0,6,1,Hecha,No Finalizado,Anual,0
+244105.0,B,9,0,0,0,9,0,0,No tuvo,Sin Llamada de primer contacto,1,0,2,0,0,0,1,0,0,1,0,Hecha,Finalizado,Mensual,0
+244173.0,A,8,2,2,0,4,2,0,Efectiva,Dentro del rango,1,1,2,0,0,0,1,0,0,1,0,Hecha,Finalizado,Mensual,0
+244384.0,A,16,5,4,1,9,2,0,Efectiva,Fuera del rango,1,1,2,0,0,0,1,1,0,0,0,No tuvo,No Finalizado,Mensual,0
+245287.0,B,5,0,0,0,4,1,0,No tuvo,Sin Llamada de primer contacto,1,0,3,0,0,0,1,1,0,1,0,Hecha,No Finalizado,Anual,0

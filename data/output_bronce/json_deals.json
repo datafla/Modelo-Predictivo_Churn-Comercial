@@ -1,0 +1,5802 @@
+[
+    {
+        "id": 12474,
+        "key": "id",
+        "name": "ID",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "int",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12451,
+        "key": "title",
+        "name": "T\u00edtulo",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "varchar",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2023-09-21 08:45:51",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "use_field": "id",
+        "link": "/deal/"
+    },
+    {
+        "id": 12452,
+        "key": "creator_user_id",
+        "name": "Creador",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "user",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12453,
+        "key": "user_id",
+        "name": "Propietario",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "user",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2023-07-20 11:35:35",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12455,
+        "key": "weighted_value",
+        "name": "Valor ponderado",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "monetary",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": false,
+        "sortable_flag": false,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": null,
+        "key": "weighted_value_currency",
+        "name": "Moneda del valor ponderado",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": true,
+        "parent_id": 12455,
+        "id_suffix": "currency"
+    },
+    {
+        "id": 12458,
+        "key": "pipeline",
+        "name": "Embudo",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "double",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2023-09-21 08:45:51",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12460,
+        "key": "stage_id",
+        "name": "Etapa",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "stage",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2023-09-21 08:45:51",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "use_field": "stage"
+    },
+    {
+        "id": 12461,
+        "key": "status",
+        "name": "Estado",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "status",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": "open",
+                "label": "Abierto"
+            },
+            {
+                "id": "lost",
+                "label": "Perdido"
+            },
+            {
+                "id": "won",
+                "label": "Ganado"
+            },
+            {
+                "id": "deleted",
+                "label": "Eliminado"
+            }
+        ]
+    },
+    {
+        "id": 12462,
+        "key": "add_time",
+        "name": "Negocio creado el",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12463,
+        "key": "update_time",
+        "name": "Fecha de actualizaci\u00f3n",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12464,
+        "key": "stage_change_time",
+        "name": "\u00daltimo cambio de etapa",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12465,
+        "key": "next_activity_date",
+        "name": "Fecha de pr\u00f3xima actividad",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12466,
+        "key": "last_activity_date",
+        "name": "Fecha de \u00faltima actividad",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12467,
+        "key": "won_time",
+        "name": "Fecha de ganado",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": {
+            "status": "=won"
+        },
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": true,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12468,
+        "key": "last_incoming_mail_time",
+        "name": "\u00daltimo correo recibido",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12469,
+        "key": "last_outgoing_mail_time",
+        "name": "\u00daltimo correo enviado",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12470,
+        "key": "lost_time",
+        "name": "Fecha de perdido",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": {
+            "status": "=lost"
+        },
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12471,
+        "key": "close_time",
+        "name": "Negocio cerrado el",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12472,
+        "key": "lost_reason",
+        "name": "Raz\u00f3n de la p\u00e9rdida",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "varchar_options",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2025-01-28 21:28:45",
+        "last_updated_by_user_id": 9189238,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": {
+            "status": "=lost"
+        },
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 2428,
+                "label": "Dej\u00f3 de contestar"
+            },
+            {
+                "id": 2402,
+                "label": "No solicit\u00f3 informaci\u00f3n"
+            },
+            {
+                "id": 2216,
+                "label": "Frio/mas adelante (descalificado)"
+            },
+            {
+                "id": 1310,
+                "label": "No responde (leads calientes)"
+            },
+            {
+                "id": 2427,
+                "label": "(EXP) Los horarios de atenci\u00f3n no cumplen con la expectativa del negocio"
+            },
+            {
+                "id": 2426,
+                "label": "(EXP) El negocio se encuentra con un flujo de caja inestable"
+            },
+            {
+                "id": 2425,
+                "label": "(EXP) La inversi\u00f3n en tuGerente no ha generado el valor esperado en mi empresa"
+            },
+            {
+                "id": 2424,
+                "label": "(EXP) El negocio no comparti\u00f3 la informaci\u00f3n para importar a tuGerente"
+            },
+            {
+                "id": 2423,
+                "label": "(EXP) La funci\u00f3n es demasiada b\u00e1sica"
+            },
+            {
+                "id": 2422,
+                "label": "(EXP) Demasiado complicado de utilizar"
+            },
+            {
+                "id": 2421,
+                "label": "(EXP) El proyecto en el que estaba trabajando ha finalizado"
+            },
+            {
+                "id": 2420,
+                "label": "(EXP) Es demasiado caro"
+            },
+            {
+                "id": 2419,
+                "label": "(EXP) El rendimiento es deficiente o las funciones no funcionan correctamente"
+            },
+            {
+                "id": 2418,
+                "label": "(EXP) No es lo suficientemente personalizable"
+            },
+            {
+                "id": 2417,
+                "label": "(EXP) El champion fue despedido o cambi\u00f3 de puesto"
+            },
+            {
+                "id": 2416,
+                "label": "(EXP) El negocio necesita una integraci\u00f3n o es b\u00e1sica"
+            },
+            {
+                "id": 2415,
+                "label": "(EXP) El negocio no est\u00e1 listo para tuGerente"
+            },
+            {
+                "id": 2414,
+                "label": "(EXP) El negocio exige al champion que utilice una herramienta diferente"
+            },
+            {
+                "id": 2413,
+                "label": "(EXP) Falta una funci\u00f3n"
+            },
+            {
+                "id": 2412,
+                "label": "(EXP) El negocio no ha recibido suficiente asistencia o formaci\u00f3n"
+            },
+            {
+                "id": 2411,
+                "label": "(EXP) El precio que estaba pagando ha cambiado"
+            },
+            {
+                "id": 2410,
+                "label": "(EXP) El negocio est\u00e1 reduciendo su presupuesto"
+            },
+            {
+                "id": 2409,
+                "label": "(EXP) Nunca empez\u00f3 a pesar de tener su data cargada y cumpli\u00f3 con sus capacitaciones"
+            },
+            {
+                "id": 2408,
+                "label": "(EXP) El negocio ha cerrado"
+            },
+            {
+                "id": 2407,
+                "label": "(EXP) Viaje"
+            },
+            {
+                "id": 1441,
+                "label": "(EXP) La empresa est\u00e1 teniendo cambios en la interna y no tiene enfoque para usar el software"
+            },
+            {
+                "id": 2401,
+                "label": "N\u00famero equivocado"
+            },
+            {
+                "id": 2400,
+                "label": "N\u00famero Inv\u00e1lido"
+            },
+            {
+                "id": 2350,
+                "label": "No MQL"
+            },
+            {
+                "id": 2323,
+                "label": "Cuaderno"
+            },
+            {
+                "id": 2218,
+                "label": "Ya ten\u00eda otro software  (descalificado)"
+            },
+            {
+                "id": 2215,
+                "label": "Adquiri\u00f3 otro software (descalificado)"
+            },
+            {
+                "id": 2217,
+                "label": "Funcionalidad espec\u00edfica (descalificado)"
+            },
+            {
+                "id": 952,
+                "label": "Precio (Descalificado)"
+            },
+            {
+                "id": 40,
+                "label": "Inv\u00e1lido (descalificado)"
+            },
+            {
+                "id": 956,
+                "label": "Duplicado (descalificado)"
+            },
+            {
+                "id": 27,
+                "label": "Curioso (descalificado)"
+            },
+            {
+                "id": 931,
+                "label": "Cerr\u00f3 empresa (descalificado)"
+            },
+            {
+                "id": 38,
+                "label": "Pago \u00fanico (descalificado)"
+            },
+            {
+                "id": 960,
+                "label": "Estudiante (descalificado)"
+            },
+            {
+                "id": 579,
+                "label": "Cuota/mensualidades"
+            },
+            {
+                "id": 967,
+                "label": "Ya es cliente (descalificado)"
+            },
+            {
+                "id": 965,
+                "label": "Prueba (descalificado)"
+            },
+            {
+                "id": 966,
+                "label": "No contactar (descalificado)"
+            },
+            {
+                "id": 28,
+                "label": "No tiene empresa (descalificado)"
+            },
+            {
+                "id": 964,
+                "label": "No era el decision making (descalificado)"
+            },
+            {
+                "id": 30,
+                "label": "Software offline (descalificado)"
+            },
+            {
+                "id": 933,
+                "label": "Mala experiencia del cliente"
+            },
+            {
+                "id": 161,
+                "label": "Talleres/Capacitaciones (descalificado)"
+            },
+            {
+                "id": 110,
+                "label": "Ecommerce/Agencia MKT/Agencia RRHH (descalificado)"
+            },
+            {
+                "id": 961,
+                "label": "Por definir (NO USAR)"
+            },
+            {
+                "id": 962,
+                "label": "Posible competidor (descalificado)"
+            },
+            {
+                "id": 963,
+                "label": "#pedidos (no usar)"
+            },
+            {
+                "id": 1323,
+                "label": "No responde (tuMenu) uso exclusivo"
+            },
+            {
+                "id": 1450,
+                "label": "Tiempo para agendar agotado"
+            },
+            {
+                "id": 1428,
+                "label": "(MKT) No ICP"
+            },
+            {
+                "id": 1335,
+                "label": "(C10) No responde (NO USAR)"
+            },
+            {
+                "id": 1345,
+                "label": "Alianza/Embajador"
+            },
+            {
+                "id": 1380,
+                "label": "Pipedrive (por limpiar)"
+            },
+            {
+                "id": 1412,
+                "label": "(PROD) No PQL"
+            },
+            {
+                "id": 1413,
+                "label": "(PROD) PQL No Calificado"
+            },
+            {
+                "id": 2042,
+                "label": "No Digitalizados (descalificado)"
+            }
+        ]
+    },
+    {
+        "id": 12473,
+        "key": "visible_to",
+        "name": "Visible para",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "visible_to",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2023-09-21 08:45:51",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1,
+                "label": "Propietario del elemento"
+            },
+            {
+                "id": 3,
+                "label": "Todos los usuarios"
+            }
+        ]
+    },
+    {
+        "id": 12475,
+        "key": "activities_count",
+        "name": "Actividades totales",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "int",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12476,
+        "key": "done_activities_count",
+        "name": "Actividades realizadas",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "int",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12477,
+        "key": "undone_activities_count",
+        "name": "Actividades pendientes",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "int",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12478,
+        "key": "email_messages_count",
+        "name": "N\u00famero de mensajes de correo electr\u00f3nico",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "int",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12489,
+        "key": "product_quantity",
+        "name": "Cantidad de productos",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "double",
+        "json_column_flag": false,
+        "add_time": "2019-06-14 09:34:42",
+        "update_time": null,
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": false,
+        "sortable_flag": false,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12490,
+        "key": "product_amount",
+        "name": "Importe del producto",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "double",
+        "json_column_flag": false,
+        "add_time": "2019-06-14 09:34:42",
+        "update_time": null,
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": false,
+        "sortable_flag": false,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12659,
+        "key": "product_name",
+        "name": "Nombre del producto",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "varchar",
+        "json_column_flag": false,
+        "add_time": "2023-05-27 07:47:05",
+        "update_time": null,
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": false,
+        "sortable_flag": false,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12660,
+        "key": "origin",
+        "name": "Origen",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "enum",
+        "json_column_flag": false,
+        "add_time": "2024-05-27 08:15:49",
+        "update_time": null,
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": "ManuallyCreated",
+                "label": "Creado manualmente"
+            },
+            {
+                "id": "Import",
+                "label": "Importar"
+            },
+            {
+                "id": "API",
+                "label": "API"
+            },
+            {
+                "id": "Automation",
+                "label": "Automatizaci\u00f3n"
+            },
+            {
+                "id": "Marketplace",
+                "label": "Marketplace"
+            },
+            {
+                "id": "Prospector",
+                "label": "Prospector"
+            },
+            {
+                "id": "LeadSuggestion",
+                "label": "Sugerencias de prospectos"
+            },
+            {
+                "id": "WebForms",
+                "label": "Formularios web"
+            },
+            {
+                "id": "Chatbot",
+                "label": "Chatbot"
+            },
+            {
+                "id": "LiveChat",
+                "label": "Chat en vivo"
+            },
+            {
+                "id": "WebVisitors",
+                "label": "Visitas  web"
+            },
+            {
+                "id": "Campaigns",
+                "label": "Campaigns"
+            },
+            {
+                "id": "MessagingInbox",
+                "label": "Bandeja de entrada de mensajer\u00eda"
+            }
+        ]
+    },
+    {
+        "id": 12661,
+        "key": "origin_id",
+        "name": "ID del origen de fuente",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "varchar",
+        "json_column_flag": false,
+        "add_time": "2024-05-27 08:15:49",
+        "update_time": null,
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12662,
+        "key": "channel",
+        "name": "Canal de origen",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "enum",
+        "json_column_flag": false,
+        "add_time": "2024-05-27 08:15:49",
+        "update_time": "2025-01-02 21:12:53",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 2337,
+                "label": "Prospector",
+                "alt_id": "prospector"
+            },
+            {
+                "id": 2338,
+                "label": "Lead Suggestions",
+                "alt_id": "lead_suggestions"
+            },
+            {
+                "id": 2339,
+                "label": "Web forms",
+                "alt_id": "web_forms"
+            },
+            {
+                "id": 2340,
+                "label": "Chatbot",
+                "alt_id": "chatbot"
+            },
+            {
+                "id": 2341,
+                "label": "Live chat",
+                "alt_id": "live_chat"
+            },
+            {
+                "id": 2342,
+                "label": "Web visitors",
+                "alt_id": "web_visitors"
+            },
+            {
+                "id": 2343,
+                "label": "Campaigns",
+                "alt_id": "campaigns"
+            },
+            {
+                "id": 2344,
+                "label": "Marketplace",
+                "alt_id": "marketplace"
+            },
+            {
+                "id": 2345,
+                "label": "Messaging Inbox",
+                "alt_id": "messaging_inbox"
+            },
+            {
+                "id": 2367,
+                "label": "Typeform"
+            }
+        ]
+    },
+    {
+        "id": 12663,
+        "key": "channel_id",
+        "name": "ID del canal de fuente",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "varchar",
+        "json_column_flag": false,
+        "add_time": "2024-05-27 08:15:49",
+        "update_time": null,
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12454,
+        "key": "value",
+        "name": "Valor",
+        "group_id": 9,
+        "order_nr": 1,
+        "field_type": "monetary",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2024-10-29 19:17:56",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": null,
+        "key": "currency",
+        "name": "Moneda",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 12454,
+        "id_suffix": "currency"
+    },
+    {
+        "id": 12456,
+        "key": "probability",
+        "name": "Probabilidad",
+        "group_id": 9,
+        "order_nr": 2,
+        "field_type": "int",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2024-10-29 19:17:56",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12457,
+        "key": "org_id",
+        "name": "Organizaci\u00f3n",
+        "group_id": 9,
+        "order_nr": 3,
+        "field_type": "org",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2024-10-29 19:17:56",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": {
+            "person_id": "<=0"
+        },
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12459,
+        "key": "person_id",
+        "name": "Persona de contacto",
+        "group_id": 9,
+        "order_nr": 4,
+        "field_type": "people",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2024-10-29 19:17:56",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": {
+            "org_id": "<=0"
+        },
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12479,
+        "key": "expected_close_date",
+        "name": "Fecha de cierre prevista",
+        "group_id": 9,
+        "order_nr": 5,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2024-10-29 19:17:56",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12518,
+        "key": "label",
+        "name": "Etiqueta",
+        "group_id": 9,
+        "order_nr": 6,
+        "field_type": "set",
+        "json_column_flag": false,
+        "add_time": "2020-02-17 06:56:41",
+        "update_time": "2025-01-16 19:45:56",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": true,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1422,
+                "label": "PAGA! (C)",
+                "color": "green"
+            },
+            {
+                "id": 1424,
+                "label": "Interesado (C)",
+                "color": "red"
+            },
+            {
+                "id": 1425,
+                "label": "Seguimiento valor (C)",
+                "color": "purple"
+            },
+            {
+                "id": 1423,
+                "label": "Desinteres (C)",
+                "color": "orange"
+            },
+            {
+                "id": 2191,
+                "label": "Lead recalificado (C)",
+                "color": "yellow"
+            },
+            {
+                "id": 2220,
+                "label": "LEAD DESCALIFICADO (C)",
+                "color": "brown"
+            },
+            {
+                "id": 737,
+                "label": "Outbound",
+                "color": "purple"
+            },
+            {
+                "id": 758,
+                "label": "Contador/Auditor",
+                "color": "green"
+            },
+            {
+                "id": 831,
+                "label": "Alianza",
+                "color": "yellow"
+            },
+            {
+                "id": 1112,
+                "label": "tuG + tuM",
+                "color": "blue"
+            },
+            {
+                "id": 1313,
+                "label": "wapp gen",
+                "color": "yellow"
+            },
+            {
+                "id": 1414,
+                "label": "G. Empresarial",
+                "color": "blue"
+            },
+            {
+                "id": 1418,
+                "label": "ATENCION PRIORITARIA",
+                "color": "pink"
+            },
+            {
+                "id": 1481,
+                "label": "Super ICP (C)",
+                "color": "green"
+            },
+            {
+                "id": 1527,
+                "label": "CxC",
+                "color": "gray"
+            },
+            {
+                "id": 2041,
+                "label": "Problema de liquidez (C)",
+                "color": "orange"
+            },
+            {
+                "id": 2096,
+                "label": "BANCO FIE",
+                "color": "green"
+            },
+            {
+                "id": 2190,
+                "label": "reagendar",
+                "color": "gray"
+            },
+            {
+                "id": 2213,
+                "label": "cuotas (c)",
+                "color": "gray"
+            },
+            {
+                "id": 2223,
+                "label": "Exasesor por limpiar",
+                "color": "orange"
+            },
+            {
+                "id": 2224,
+                "label": "Sprint Outbound",
+                "color": "red"
+            },
+            {
+                "id": 2225,
+                "label": "exasesor",
+                "color": "gray"
+            },
+            {
+                "id": 2226,
+                "label": "M\u00e1ndame Informaci\u00f3n",
+                "color": "orange"
+            },
+            {
+                "id": 2227,
+                "label": "Lunes Cancelado",
+                "color": "red"
+            },
+            {
+                "id": 2231,
+                "label": "A",
+                "color": "green"
+            },
+            {
+                "id": 2232,
+                "label": "B",
+                "color": "yellow"
+            },
+            {
+                "id": 2233,
+                "label": "C",
+                "color": "orange"
+            },
+            {
+                "id": 2234,
+                "label": "D",
+                "color": "red"
+            },
+            {
+                "id": 2277,
+                "label": "Facturaci\u00f3n Peru",
+                "color": "red"
+            },
+            {
+                "id": 2287,
+                "label": "Agendo Solo",
+                "color": "orange"
+            },
+            {
+                "id": 2299,
+                "label": "Nurturing WSP",
+                "color": "gray"
+            },
+            {
+                "id": 2303,
+                "label": "Nurturing Correo",
+                "color": "gray"
+            },
+            {
+                "id": 2308,
+                "label": "reactivaciones",
+                "color": "brown"
+            },
+            {
+                "id": 2309,
+                "label": "Reactivaciones II",
+                "color": "pink"
+            },
+            {
+                "id": 2325,
+                "label": "Cliente Potencial Cualificado",
+                "color": "green"
+            },
+            {
+                "id": 2326,
+                "label": "Reagendando Reunion",
+                "color": "purple"
+            },
+            {
+                "id": 2327,
+                "label": "Stuck",
+                "color": "gray"
+            },
+            {
+                "id": 2328,
+                "label": "2da Reuni\u00f3n/P. Piloto",
+                "color": "green"
+            },
+            {
+                "id": 2332,
+                "label": "TAA MARZO - ABRIL",
+                "color": "yellow"
+            },
+            {
+                "id": 2333,
+                "label": "ORG ABRIL",
+                "color": "green"
+            },
+            {
+                "id": 2335,
+                "label": "Early Nurturing",
+                "color": "gray"
+            },
+            {
+                "id": 2336,
+                "label": "RETAIL EVENTO",
+                "color": "dark-gray"
+            },
+            {
+                "id": 2351,
+                "label": "Eduardo",
+                "color": "red"
+            },
+            {
+                "id": 2354,
+                "label": "(EXP) Maria Laura",
+                "color": "pink"
+            },
+            {
+                "id": 2355,
+                "label": "(EXP) Claudia",
+                "color": "blue"
+            },
+            {
+                "id": 2357,
+                "label": "LeFil",
+                "color": "green"
+            },
+            {
+                "id": 2358,
+                "label": "No LeFil",
+                "color": "red"
+            },
+            {
+                "id": 2359,
+                "label": "Nurturing BF 24",
+                "color": "gray"
+            },
+            {
+                "id": 2360,
+                "label": "Mateo Leads",
+                "color": "orange"
+            },
+            {
+                "id": 2361,
+                "label": "No se debio agendar",
+                "color": "red"
+            },
+            {
+                "id": 2362,
+                "label": "Joseca 09/12",
+                "color": "brown"
+            },
+            {
+                "id": 2363,
+                "label": "Nurturing Dic",
+                "color": "gray"
+            },
+            {
+                "id": 2366,
+                "label": "Joseca",
+                "color": "gray"
+            },
+            {
+                "id": 2403,
+                "label": "(EXP) Potencial churn com",
+                "color": "yellow"
+            },
+            {
+                "id": 2406,
+                "label": "Malau atemporal",
+                "color": "green"
+            }
+        ]
+    },
+    {
+        "id": 12639,
+        "key": "2a5a810a03fd00d95626685d3c043651c02fbf9a",
+        "name": "Tipo de cliente",
+        "group_id": 1,
+        "order_nr": 8,
+        "field_type": "text",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:02:16",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12637,
+        "key": "f92a1b04ea24008f514416941de1cee1a6b5d23e",
+        "name": "Canal Agrupado",
+        "group_id": 1,
+        "order_nr": 9,
+        "field_type": "text",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:01:45",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12551,
+        "key": "75258752983a7d105793391c5715bed7ef19cb95",
+        "name": "utm_campaign (Canal)",
+        "group_id": 1,
+        "order_nr": 10,
+        "field_type": "varchar",
+        "json_column_flag": true,
+        "add_time": "2020-06-17 20:28:41",
+        "update_time": "2024-12-26 23:51:58",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12571,
+        "key": "df324f20a755da633a04b43a786615594ce4ce16",
+        "name": "MKT REP",
+        "group_id": 1,
+        "order_nr": 11,
+        "field_type": "user",
+        "json_column_flag": true,
+        "add_time": "2020-11-16 18:23:55",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 12913704,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12648,
+        "key": "1bab2d8275bb03bf09dae1fa5280b54bc8da6967",
+        "name": "Qualified Score",
+        "group_id": 1,
+        "order_nr": 12,
+        "field_type": "varchar_auto",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:05:54",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12621,
+        "key": "29c1d2f6acf8b030a8313cefd1dc423128d7f919",
+        "name": "(C*) Industria primaria",
+        "group_id": 1,
+        "order_nr": 13,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2021-08-02 19:24:21",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189238,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1143,
+                "label": "Retail o comercio Minorista"
+            },
+            {
+                "id": 1144,
+                "label": "Gastronom\u00eda"
+            },
+            {
+                "id": 1145,
+                "label": "Distribuci\u00f3n o Mayorista"
+            },
+            {
+                "id": 1146,
+                "label": "Servicios Empresariales"
+            },
+            {
+                "id": 1147,
+                "label": "Otros servicios"
+            },
+            {
+                "id": 1148,
+                "label": "Agropecuaria"
+            },
+            {
+                "id": 1149,
+                "label": "Producci\u00f3n"
+            },
+            {
+                "id": 1150,
+                "label": "Miner\u00eda"
+            },
+            {
+                "id": 2236,
+                "label": "Gastronom\u00eda Autoservicio"
+            },
+            {
+                "id": 2237,
+                "label": "Gastronom\u00eda Tradicional"
+            }
+        ]
+    },
+    {
+        "id": 12623,
+        "key": "70f1436dc0cda3aca1261457d83cffe394eb305f",
+        "name": "(C*) Subindustria primaria",
+        "group_id": 1,
+        "order_nr": 14,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2021-08-02 19:38:56",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1159,
+                "label": "Retail o Comercio minorista (Farmacias)"
+            },
+            {
+                "id": 1160,
+                "label": "Retail o Comercio minorista (Ferreter\u00edas)"
+            },
+            {
+                "id": 1161,
+                "label": "Retail o Comercio minorista (Librer\u00edas y Material de Escritorio)"
+            },
+            {
+                "id": 1162,
+                "label": "Retail o Comercio minorista (Material de Construcci\u00f3n)"
+            },
+            {
+                "id": 1163,
+                "label": "Retail o Comercio minorista (Supermercados / Micromercados / Licorer\u00edas)"
+            },
+            {
+                "id": 1164,
+                "label": "Retail o Comercio minorista (Tienda de Alimentos y Bebidas)"
+            },
+            {
+                "id": 1165,
+                "label": "Retail o Comercio minorista (Tienda de Accesorios)"
+            },
+            {
+                "id": 1166,
+                "label": "Retail o Comercio minorista (Tienda de Celulares)"
+            },
+            {
+                "id": 1167,
+                "label": "Retail o Comercio minorista (Tienda de Materiales M\u00e9dicos y Odontol\u00f3gicos)"
+            },
+            {
+                "id": 1168,
+                "label": "Retail o Comercio minorista (Tienda de Ropa, Zapatos)"
+            },
+            {
+                "id": 1169,
+                "label": "Gastronom\u00eda & HORECA (Cafeter\u00eda, Helader\u00eda, Panader\u00eda, Pasteler\u00eda)"
+            },
+            {
+                "id": 1170,
+                "label": "Gastronom\u00eda & HORECA (Hoteler\u00eda)"
+            },
+            {
+                "id": 1171,
+                "label": "Gastronom\u00eda & HORECA (Producci\u00f3n de alimentos y bebidas para su venta)"
+            },
+            {
+                "id": 1172,
+                "label": "Gastronom\u00eda & HORECA (Restaurante, Bar)"
+            },
+            {
+                "id": 1173,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Importadora/Distribuidora de Consumo Masivo)"
+            },
+            {
+                "id": 1174,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Importadora/Distribuidora de Insumos M\u00e9dicos)"
+            },
+            {
+                "id": 1175,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Importadora/Distribuidora de Maquinarias)"
+            },
+            {
+                "id": 1176,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Otras Importadoras/Distribuidoras)"
+            },
+            {
+                "id": 1177,
+                "label": "Distribuci\u00f3n o Comercio Mayorista y Producci\u00f3n (Importadora/Distribuidora de Textiles)"
+            },
+            {
+                "id": 1178,
+                "label": "Servicios Empresariales (Agencia Publicitaria)"
+            },
+            {
+                "id": 1179,
+                "label": "Servicios Empresariales (Consultora)"
+            },
+            {
+                "id": 1180,
+                "label": "Servicios Empresariales (Servicios Contables)"
+            },
+            {
+                "id": 1181,
+                "label": "Servicios Empresariales (Servicios Tecnol\u00f3gicos)"
+            },
+            {
+                "id": 1182,
+                "label": "Servicios (Servicios Tecnol\u00f3gicos)"
+            },
+            {
+                "id": 1183,
+                "label": "Servicios Empresariales (Servicios Legales)"
+            },
+            {
+                "id": 1184,
+                "label": "Otros Servicios (Agencia de viajes)"
+            },
+            {
+                "id": 1185,
+                "label": "Otros Servicios (ONGs & Asociaciones)"
+            },
+            {
+                "id": 1186,
+                "label": "Otros Servicios (Autoservicio, Mantenimiento y Reparaci\u00f3n de Veh\u00edculos)"
+            },
+            {
+                "id": 1187,
+                "label": "Otros Servicios (Construcci\u00f3n)"
+            },
+            {
+                "id": 1188,
+                "label": "Otros Servicios (Cowork)"
+            },
+            {
+                "id": 1189,
+                "label": "Otros Servicios (Editorial)"
+            },
+            {
+                "id": 1190,
+                "label": "Otros Servicios (Educaci\u00f3n y Capacitaciones)"
+            },
+            {
+                "id": 1191,
+                "label": "Otros Servicios (Entretenimiento)"
+            },
+            {
+                "id": 1192,
+                "label": "Otros Servicios (Fotograf\u00edas)"
+            },
+            {
+                "id": 1193,
+                "label": "Otros Servicios (Limpieza)"
+            },
+            {
+                "id": 1194,
+                "label": "Otros Servicios (Salud y Bienestar: Cl\u00ednicas, Hospitales y Centros de Salud)"
+            },
+            {
+                "id": 1195,
+                "label": "Otros Servicios (Salud y Bienestar: Laboratorio)"
+            },
+            {
+                "id": 1196,
+                "label": "Otros Servicios (Salud y Bienestar: Sal\u00f3n de Belleza, Sal\u00f3n de Spa, Centros de Bienestar)"
+            },
+            {
+                "id": 1197,
+                "label": "Otros Servicios (Salud y Bienestar: No definido)"
+            },
+            {
+                "id": 1198,
+                "label": "Otros Servicios (Servicio de Mensajer\u00eda)"
+            },
+            {
+                "id": 1199,
+                "label": "Otros Servicios (Transportes)"
+            },
+            {
+                "id": 1200,
+                "label": "Agropecuaria (Agricultura y Horticultura)"
+            },
+            {
+                "id": 1201,
+                "label": "Agropecuaria (Ganader\u00eda y Piscicultura)"
+            },
+            {
+                "id": 1202,
+                "label": "Producci\u00f3n (Manufactura de Productos en general)"
+            },
+            {
+                "id": 1203,
+                "label": "Producci\u00f3n (Textil)"
+            },
+            {
+                "id": 1204,
+                "label": "Producci\u00f3n (Manufactura de Maquinaria y Repuestos)"
+            },
+            {
+                "id": 1205,
+                "label": "Miner\u00eda"
+            },
+            {
+                "id": 1206,
+                "label": "Siderurgia"
+            },
+            {
+                "id": 1207,
+                "label": "Metalurgia"
+            },
+            {
+                "id": 1272,
+                "label": "Retail o Comercio minorista (Electrodom\u00e9sticos & Electr\u00f3nicos)"
+            },
+            {
+                "id": 1261,
+                "label": "Retail o Comercio minorista (Electrodom\u00e9sticos & Electr\u00f3nicos)"
+            },
+            {
+                "id": 1273,
+                "label": "Retail o Comercio minorista (Productos Agro)"
+            },
+            {
+                "id": 1262,
+                "label": "Retail o Comercio minorista (Productos Agro))"
+            },
+            {
+                "id": 1274,
+                "label": "Retail o Comercio minorista (Venta de lubricantes & Repuesto de veh\u00edculos)"
+            },
+            {
+                "id": 1263,
+                "label": "Retail o Comercio minorista (Venta de lubricantes & Repuesto de veh\u00edculos)"
+            },
+            {
+                "id": 1275,
+                "label": "Retail o Comercio minorista (motos, bicis, scooters y autos)"
+            },
+            {
+                "id": 1264,
+                "label": "Retail o Comercio minorista (motos, bicis, scooters y autos)"
+            },
+            {
+                "id": 1276,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Electrodom\u00e9sticos & Electr\u00f3nicos)"
+            },
+            {
+                "id": 1265,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Electrodom\u00e9sticos & Electr\u00f3nicos)"
+            },
+            {
+                "id": 1277,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Venta de lubricantes & Repuesto de veh\u00edculos)"
+            },
+            {
+                "id": 1266,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Venta de lubricantes & Repuesto de veh\u00edculos)"
+            },
+            {
+                "id": 1278,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Librer\u00edas y Material de Escritorio)"
+            },
+            {
+                "id": 1279,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Alimentos)"
+            },
+            {
+                "id": 1280,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Ferreter\u00edas mayorista)"
+            },
+            {
+                "id": 1281,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Tienda de Ropa, Zapatos)"
+            },
+            {
+                "id": 1282,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Flores, Plantas)"
+            },
+            {
+                "id": 1283,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Material de Construcci\u00f3n)"
+            },
+            {
+                "id": 1284,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Productos Qu\u00edmicos)"
+            },
+            {
+                "id": 1285,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Productos del hogar)"
+            },
+            {
+                "id": 1286,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Productos del Agro)"
+            },
+            {
+                "id": 1287,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Accesorio de veh\u00edculos)"
+            },
+            {
+                "id": 1494,
+                "label": "Retail o Comercio minorista (Importaci\u00f3n/exportaci\u00f3n de productos)"
+            },
+            {
+                "id": 1495,
+                "label": "Retail o Comercio minorista (Comercializaci\u00f3n de productos en general)"
+            },
+            {
+                "id": 1496,
+                "label": "Distribuci\u00f3n o Comercio Mayorista (Importaci\u00f3n/exportaci\u00f3n de productos)"
+            },
+            {
+                "id": 1497,
+                "label": "Retail o Comercio minorista (Comercializaci\u00f3n de productos en general)"
+            },
+            {
+                "id": 2065,
+                "label": "Otros Servicios (Bienes raices)"
+            },
+            {
+                "id": 2077,
+                "label": "Otros servicios (Eventos, decoraci\u00f3n)"
+            },
+            {
+                "id": 2221,
+                "label": "Otros Servicios (Imprentas, Serigrafias)"
+            },
+            {
+                "id": 2288,
+                "label": "Otros servicios (seguridad, vigilancia)"
+            }
+        ]
+    },
+    {
+        "id": 12560,
+        "key": "948969c5669c493f46066493696feb81ca774333",
+        "name": "(C*)Rol Dentro de la Empresa ",
+        "group_id": 1,
+        "order_nr": 15,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2020-08-17 03:54:39",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 832,
+                "label": "Due\u00f1o/Propietario"
+            },
+            {
+                "id": 833,
+                "label": "Gerente/Administrador"
+            },
+            {
+                "id": 834,
+                "label": "Contador/Auditor"
+            },
+            {
+                "id": 835,
+                "label": "Consultor"
+            },
+            {
+                "id": 836,
+                "label": "Otros"
+            },
+            {
+                "id": 1058,
+                "label": "Champion"
+            }
+        ]
+    },
+    {
+        "id": 12491,
+        "key": "60828da8a2c9184d80f55981b88fa5f6324fd45c",
+        "name": "(C*)Rango Mensual de Ingresos",
+        "group_id": 1,
+        "order_nr": 16,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2019-07-12 13:28:17",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189238,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 926,
+                "label": "Menor a 3.000 USD"
+            },
+            {
+                "id": 1356,
+                "label": "3.000 a 6.000 USD"
+            },
+            {
+                "id": 2048,
+                "label": "Menor a 6.000 USD"
+            },
+            {
+                "id": 2049,
+                "label": "6.000 a 12.000 USD"
+            },
+            {
+                "id": 138,
+                "label": "6.000 a 20.000 USD"
+            },
+            {
+                "id": 2050,
+                "label": "12.000 a 20.000 USD"
+            },
+            {
+                "id": 2047,
+                "label": "No aplica"
+            },
+            {
+                "id": 2316,
+                "label": "Mayor 75.000 USD (por usar)"
+            },
+            {
+                "id": 139,
+                "label": "20.000 a 75.000 USD"
+            },
+            {
+                "id": 137,
+                "label": "75.000 a 150.000 USD"
+            },
+            {
+                "id": 140,
+                "label": "Mayor a 150.000 USD"
+            }
+        ]
+    },
+    {
+        "id": 12642,
+        "key": "449a04963ccf379dbd0d5a5c802b44132899c8f6",
+        "name": "(C*) Cantidad de Personas",
+        "group_id": 1,
+        "order_nr": 17,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:03:26",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 2285,
+                "label": "S\u00f3lo yo"
+            },
+            {
+                "id": 2280,
+                "label": "2 a 10"
+            },
+            {
+                "id": 2281,
+                "label": "11 a 30"
+            },
+            {
+                "id": 2282,
+                "label": "31 a 60"
+            },
+            {
+                "id": 2283,
+                "label": "61 a 100"
+            },
+            {
+                "id": 2284,
+                "label": "M\u00e1s de 100"
+            }
+        ]
+    },
+    {
+        "id": 12484,
+        "key": "9263b99971c4ccf7c27bf97c5bb8296cefe03186",
+        "name": "(C*)\u00bfQuien toma la decisi\u00f3n de compra?",
+        "group_id": 1,
+        "order_nr": 18,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2019-06-03 17:54:14",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 109,
+                "label": "Gerente/Due\u00f1o"
+            },
+            {
+                "id": 106,
+                "label": "Con el/los socio(s)"
+            },
+            {
+                "id": 108,
+                "label": "El contador(a)"
+            },
+            {
+                "id": 107,
+                "label": "Con la esposa(o)"
+            },
+            {
+                "id": 895,
+                "label": "No tomo las decisiones"
+            },
+            {
+                "id": 924,
+                "label": "Si, s\u00f3lo yo"
+            },
+            {
+                "id": 925,
+                "label": "Yo y otras personas"
+            }
+        ]
+    },
+    {
+        "id": 12482,
+        "key": "1d66877419b93c7bf223f22dd709605b2863644b",
+        "name": "(C*)\u00bfQue usa actualmente?",
+        "group_id": 1,
+        "order_nr": 19,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2019-05-27 01:48:21",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 76,
+                "label": "Nada"
+            },
+            {
+                "id": 74,
+                "label": "Cuaderno"
+            },
+            {
+                "id": 73,
+                "label": "Excel (Hojas de c\u00e1lculo)"
+            },
+            {
+                "id": 75,
+                "label": "Otro software"
+            },
+            {
+                "id": 894,
+                "label": "Otros"
+            },
+            {
+                "id": 2064,
+                "label": "No aplica"
+            }
+        ]
+    },
+    {
+        "id": 12577,
+        "key": "96bdab713921d03116c36adbec7eb820fb2949fc",
+        "name": "(C*)\u00bfEn d\u00f3nde se encuentra tu mayor problema? ",
+        "group_id": 1,
+        "order_nr": 20,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2020-11-19 21:39:18",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 913,
+                "label": "Inventario "
+            },
+            {
+                "id": 914,
+                "label": "Toma de decisiones y reportes "
+            },
+            {
+                "id": 915,
+                "label": "Ventas/Clientes"
+            },
+            {
+                "id": 916,
+                "label": "Cuentas por cobrar/pagar"
+            },
+            {
+                "id": 917,
+                "label": "Producci\u00f3n "
+            },
+            {
+                "id": 930,
+                "label": "Otros"
+            },
+            {
+                "id": 2228,
+                "label": "Contabilidad"
+            }
+        ]
+    },
+    {
+        "id": 12534,
+        "key": "298b3b177b2c0880992b6dcf6831139eb60436cb",
+        "name": "(C*)Ciudad",
+        "group_id": 1,
+        "order_nr": 21,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2020-04-15 13:40:18",
+        "update_time": "2025-01-06 22:24:59",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 636,
+                "label": "Santa Cruz"
+            },
+            {
+                "id": 637,
+                "label": "La Paz"
+            },
+            {
+                "id": 638,
+                "label": "El Alto"
+            },
+            {
+                "id": 639,
+                "label": "Oruro"
+            },
+            {
+                "id": 640,
+                "label": "Potos\u00ed"
+            },
+            {
+                "id": 641,
+                "label": "Cochabamba"
+            },
+            {
+                "id": 642,
+                "label": "Chuquisaca"
+            },
+            {
+                "id": 643,
+                "label": "Tarija"
+            },
+            {
+                "id": 644,
+                "label": "Pando"
+            },
+            {
+                "id": 645,
+                "label": "Beni"
+            },
+            {
+                "id": 1416,
+                "label": "M\u00e9xico"
+            },
+            {
+                "id": 1476,
+                "label": "Per\u00fa"
+            },
+            {
+                "id": 1477,
+                "label": "Chile"
+            },
+            {
+                "id": 2066,
+                "label": "Lima"
+            },
+            {
+                "id": 2229,
+                "label": "Ecuador"
+            },
+            {
+                "id": 2067,
+                "label": "Cusco"
+            },
+            {
+                "id": 2068,
+                "label": "Arequipa"
+            },
+            {
+                "id": 2069,
+                "label": "Trujillo"
+            },
+            {
+                "id": 2070,
+                "label": "CDMX"
+            },
+            {
+                "id": 2071,
+                "label": "Quer\u00e9taro"
+            },
+            {
+                "id": 2072,
+                "label": "Monterrey"
+            },
+            {
+                "id": 2073,
+                "label": "Oaxaca"
+            },
+            {
+                "id": 2074,
+                "label": "Guadalajara"
+            },
+            {
+                "id": 2075,
+                "label": "M\u00e9rida"
+            },
+            {
+                "id": 2076,
+                "label": "Puebla"
+            },
+            {
+                "id": 2286,
+                "label": "Quito"
+            },
+            {
+                "id": 2348,
+                "label": "Nicaragua"
+            },
+            {
+                "id": 2369,
+                "label": "Aguascalientes"
+            },
+            {
+                "id": 2370,
+                "label": "Baja California"
+            },
+            {
+                "id": 2371,
+                "label": "Baja California Sur"
+            },
+            {
+                "id": 2372,
+                "label": "Campeche"
+            },
+            {
+                "id": 2373,
+                "label": "Chiapas"
+            },
+            {
+                "id": 2374,
+                "label": "Chihuahua"
+            },
+            {
+                "id": 2375,
+                "label": "Coahuila"
+            },
+            {
+                "id": 2376,
+                "label": "Colima"
+            },
+            {
+                "id": 2377,
+                "label": "Durango"
+            },
+            {
+                "id": 2378,
+                "label": "Estado de M\u00e9xico"
+            },
+            {
+                "id": 2379,
+                "label": "Guanajuato"
+            },
+            {
+                "id": 2380,
+                "label": "Guerrero"
+            },
+            {
+                "id": 2381,
+                "label": "Hidalgo"
+            },
+            {
+                "id": 2382,
+                "label": "Jalisco"
+            },
+            {
+                "id": 2383,
+                "label": "Michoac\u00e1n"
+            },
+            {
+                "id": 2384,
+                "label": "Morelos"
+            },
+            {
+                "id": 2385,
+                "label": "Nayarit"
+            },
+            {
+                "id": 2386,
+                "label": "Nuevo Le\u00f3n"
+            },
+            {
+                "id": 2387,
+                "label": "Oaxaca"
+            },
+            {
+                "id": 2388,
+                "label": "Puebla"
+            },
+            {
+                "id": 2389,
+                "label": "Quer\u00e9taro"
+            },
+            {
+                "id": 2390,
+                "label": "Quintana Roo"
+            },
+            {
+                "id": 2391,
+                "label": "San Luis Potos\u00ed"
+            },
+            {
+                "id": 2392,
+                "label": "Sinaloa"
+            },
+            {
+                "id": 2393,
+                "label": "Sonora"
+            },
+            {
+                "id": 2394,
+                "label": "Tabasco"
+            },
+            {
+                "id": 2395,
+                "label": "Tamaulipas"
+            },
+            {
+                "id": 2396,
+                "label": "Tlaxcala"
+            },
+            {
+                "id": 2397,
+                "label": "Veracruz"
+            },
+            {
+                "id": 2398,
+                "label": "Yucat\u00e1n"
+            },
+            {
+                "id": 2399,
+                "label": "Zacatecas"
+            }
+        ]
+    },
+    {
+        "id": 12640,
+        "key": "7699ca62052ae30c7bd7ecd6609964524bf796cc",
+        "name": "(C*)Socia Mujer?",
+        "group_id": 1,
+        "order_nr": 22,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:02:40",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1381,
+                "label": "Si"
+            },
+            {
+                "id": 1382,
+                "label": "No"
+            },
+            {
+                "id": 1411,
+                "label": "L\u00edder mujer"
+            }
+        ]
+    },
+    {
+        "id": 12654,
+        "key": "6d1df4a6288da138b917768ce1eae469be4c6744",
+        "name": "Cliente LeFil",
+        "group_id": 1,
+        "order_nr": 23,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:07:50",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 15849589,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1400,
+                "label": "S\u00ed"
+            },
+            {
+                "id": 1401,
+                "label": "No"
+            }
+        ]
+    },
+    {
+        "id": 12506,
+        "key": "3d90065df5bcbf27211d5d7129a82ac47ad00b29",
+        "name": "(C*)G\u00e9nero",
+        "group_id": 1,
+        "order_nr": 24,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2019-11-04 20:05:50",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 248,
+                "label": "Hombre"
+            },
+            {
+                "id": 249,
+                "label": "Mujer"
+            },
+            {
+                "id": 290,
+                "label": "Otro"
+            }
+        ]
+    },
+    {
+        "id": 12646,
+        "key": "f773475df28c2f5eed11417a60bb921cd0d600f8",
+        "name": "(C)Motivo de cancelaci\u00f3n de reuni\u00f3n",
+        "group_id": 1,
+        "order_nr": 25,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:05:13",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1395,
+                "label": "Viaje"
+            },
+            {
+                "id": 1396,
+                "label": "Inconveniente con la reuni\u00f3n"
+            },
+            {
+                "id": 1397,
+                "label": "Le interesa m\u00e1s adelante"
+            },
+            {
+                "id": 1436,
+                "label": "No le interesa"
+            },
+            {
+                "id": 1437,
+                "label": "No contest\u00f3"
+            },
+            {
+                "id": 1454,
+                "label": "Otros"
+            },
+            {
+                "id": 1500,
+                "label": "No se debi\u00f3 agendar"
+            }
+        ]
+    },
+    {
+        "id": 12641,
+        "key": "a14c43c30a17cc25d6f5179ff088a861b2dc1f3d",
+        "name": "(C)Antiguedad empresa",
+        "group_id": 1,
+        "order_nr": 26,
+        "field_type": "varchar_auto",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:02:59",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12488,
+        "key": "af5f3bbf4068cff3d690a92b781f6bc2804d02b6",
+        "name": "(C) \u00bfQu\u00e9 te gustar\u00eda resolver con tuGerente?",
+        "group_id": 1,
+        "order_nr": 27,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2019-06-13 15:47:30",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 2259,
+                "label": "Inventario"
+            },
+            {
+                "id": 2260,
+                "label": "Facturaci\u00f3n/Ventas"
+            },
+            {
+                "id": 2261,
+                "label": "Cuentas por cobrar"
+            },
+            {
+                "id": 2263,
+                "label": "Cuentas por pagar"
+            },
+            {
+                "id": 2278,
+                "label": "Compras"
+            }
+        ]
+    },
+    {
+        "id": 12510,
+        "key": "2b22846647d9feac626df3da262271b4aadb9690",
+        "name": "(C)# de Sucursales",
+        "group_id": 1,
+        "order_nr": 28,
+        "field_type": "double",
+        "json_column_flag": true,
+        "add_time": "2019-11-12 15:44:45",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12573,
+        "key": "d836ffaef6bb9d6fcc49d260a3d3b3561bf62d8c",
+        "name": "\u00bfCu\u00e1l es tu nivel de urgencia para resolver tu problema? #1",
+        "group_id": 1,
+        "order_nr": 29,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2020-11-19 20:42:41",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 900,
+                "label": "Alto (8-10)"
+            },
+            {
+                "id": 901,
+                "label": "Medio (4-7)"
+            },
+            {
+                "id": 902,
+                "label": "Bajo (1-3)"
+            }
+        ]
+    },
+    {
+        "id": 12550,
+        "key": "a0ea2bc1ff03b8f9f54181199fb387eb1bee3feb",
+        "name": "N\u00famero pedido en tuG",
+        "group_id": 1,
+        "order_nr": 30,
+        "field_type": "double",
+        "json_column_flag": true,
+        "add_time": "2020-06-16 14:17:21",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12647,
+        "key": "abba3bc03f57d38a8c67f757997b8b6a6bafed33",
+        "name": "Ciclo de venta (C)",
+        "group_id": 1,
+        "order_nr": 31,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:05:33",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189238,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 2200,
+                "label": "Menos de 48 horas"
+            },
+            {
+                "id": 2201,
+                "label": "Menos de 1 semana"
+            },
+            {
+                "id": 2214,
+                "label": "Menos de 2 semanas"
+            },
+            {
+                "id": 1398,
+                "label": "Menos de 4 semanas"
+            },
+            {
+                "id": 1399,
+                "label": "Entre 4 y 8 semanas"
+            },
+            {
+                "id": 1493,
+                "label": "Mayor a 8 semanas"
+            }
+        ]
+    },
+    {
+        "id": 12495,
+        "key": "536745f5c727b05d025b9976d5208fc9c5f36492",
+        "name": "(C) (EXP) Plan",
+        "group_id": 1,
+        "order_nr": 32,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2019-09-01 23:28:59",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 173,
+                "label": "Standard 10 Users"
+            },
+            {
+                "id": 174,
+                "label": "Pro 10 Users"
+            },
+            {
+                "id": 175,
+                "label": "Standard 15 Users"
+            },
+            {
+                "id": 176,
+                "label": "Pro 15 Users"
+            },
+            {
+                "id": 177,
+                "label": "Standard 25 Users"
+            },
+            {
+                "id": 178,
+                "label": "Pro 25 Users"
+            },
+            {
+                "id": 215,
+                "label": "Standard 5 Users"
+            },
+            {
+                "id": 216,
+                "label": "Pro 5 Users"
+            },
+            {
+                "id": 292,
+                "label": "Plan Emprendimiento"
+            },
+            {
+                "id": 582,
+                "label": "B\u00e1sico 5 Users"
+            },
+            {
+                "id": 695,
+                "label": "Standard 50 Users"
+            },
+            {
+                "id": 736,
+                "label": "Standard 35 users"
+            },
+            {
+                "id": 752,
+                "label": "Plan Gastro"
+            },
+            {
+                "id": 1037,
+                "label": "Plan Mype 3 users"
+            },
+            {
+                "id": 1043,
+                "label": "Caso Especial"
+            },
+            {
+                "id": 1130,
+                "label": "tuGerente Lite"
+            },
+            {
+                "id": 1131,
+                "label": "Mype"
+            },
+            {
+                "id": 1132,
+                "label": "B\u00e1sico"
+            },
+            {
+                "id": 1133,
+                "label": "Standard"
+            },
+            {
+                "id": 1134,
+                "label": "Pro"
+            },
+            {
+                "id": 1342,
+                "label": "Pro 45 Users"
+            },
+            {
+                "id": 2078,
+                "label": "Est\u00e1ndar"
+            },
+            {
+                "id": 2324,
+                "label": "Billing"
+            },
+            {
+                "id": 2352,
+                "label": "Standard Legacy Pro"
+            }
+        ]
+    },
+    {
+        "id": 12630,
+        "key": "855749a55504a23f63145450bf0f8971cf0400bd",
+        "name": "(C) (EXP) Oportunidades del cliente",
+        "group_id": 1,
+        "order_nr": 33,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2021-12-17 19:39:45",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189238,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1346,
+                "label": "Potencial Up-selling mype"
+            },
+            {
+                "id": 1347,
+                "label": "Potencial Up-selling Standard"
+            },
+            {
+                "id": 1348,
+                "label": "Potencial Up-selling Pro"
+            },
+            {
+                "id": 2305,
+                "label": "Potencial Up-selling Premium"
+            },
+            {
+                "id": 1349,
+                "label": "Potencial Up-selling rango de $ en ventas"
+            },
+            {
+                "id": 1353,
+                "label": "Potencial Up-selling con m\u00e1s empresas"
+            },
+            {
+                "id": 1354,
+                "label": "Potencial Franquicia"
+            },
+            {
+                "id": 2206,
+                "label": "Dashboard Pro"
+            },
+            {
+                "id": 2207,
+                "label": "Dashboard Gen\u00e9rico"
+            },
+            {
+                "id": 2208,
+                "label": "Servicio registros contables"
+            },
+            {
+                "id": 2209,
+                "label": "pack de apoyo"
+            },
+            {
+                "id": 2210,
+                "label": "Equipos"
+            }
+        ]
+    },
+    {
+        "id": 12618,
+        "key": "9c97763c2c10a0dbe0ac37ede19d8dc5d2f5c478",
+        "name": "(C)(EXP) Users",
+        "group_id": 1,
+        "order_nr": 34,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2021-07-27 13:36:24",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1121,
+                "label": "1"
+            },
+            {
+                "id": 1122,
+                "label": "3"
+            },
+            {
+                "id": 1123,
+                "label": "5"
+            },
+            {
+                "id": 1124,
+                "label": "10"
+            },
+            {
+                "id": 1125,
+                "label": "15"
+            },
+            {
+                "id": 1126,
+                "label": "20"
+            },
+            {
+                "id": 1127,
+                "label": "25"
+            },
+            {
+                "id": 1128,
+                "label": "30"
+            },
+            {
+                "id": 1129,
+                "label": "35"
+            },
+            {
+                "id": 1357,
+                "label": "Ilimitados"
+            }
+        ]
+    },
+    {
+        "id": 12496,
+        "key": "fa9d1447ec9995586330d3de6f06296a4bef2458",
+        "name": "(C) (EXP) Plazo y Pago",
+        "group_id": 1,
+        "order_nr": 35,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2019-09-01 23:32:26",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 179,
+                "label": "Semestral"
+            },
+            {
+                "id": 1068,
+                "label": "Anual al contado (-15%)"
+            },
+            {
+                "id": 180,
+                "label": "Anual al contado (-20%)"
+            },
+            {
+                "id": 921,
+                "label": "Anual al Contado (-30%)"
+            },
+            {
+                "id": 254,
+                "label": "Anual al contado (-50%)"
+            },
+            {
+                "id": 181,
+                "label": "Bianual al contado (PROMO)"
+            },
+            {
+                "id": 746,
+                "label": "Anual ( 2 cuotas)"
+            },
+            {
+                "id": 182,
+                "label": "A\u00f1o y 1/2 ( 2 cuotas)"
+            },
+            {
+                "id": 183,
+                "label": "A\u00f1o y 1/2 ( 3 cuotas)"
+            },
+            {
+                "id": 255,
+                "label": "Bianual (2 cuotas)"
+            },
+            {
+                "id": 256,
+                "label": "Bianual (3 cuotas)"
+            },
+            {
+                "id": 197,
+                "label": "Caso Especial"
+            },
+            {
+                "id": 198,
+                "label": "Precio Partner"
+            },
+            {
+                "id": 212,
+                "label": "Sin Descuento/Promoci\u00f3n"
+            },
+            {
+                "id": 312,
+                "label": "2 a\u00f1os al contado (30%)"
+            },
+            {
+                "id": 580,
+                "label": "Mensual Standard"
+            },
+            {
+                "id": 753,
+                "label": "Mensual Plan Gastro"
+            },
+            {
+                "id": 759,
+                "label": "Mensual B\u00e1sico"
+            },
+            {
+                "id": 1042,
+                "label": "Bianual al contado (-30%)"
+            },
+            {
+                "id": 1044,
+                "label": "Anual (3 cuotas)"
+            },
+            {
+                "id": 1069,
+                "label": "Bianual (2 cuotas y -30% de descuento)"
+            },
+            {
+                "id": 1095,
+                "label": "Bianual al contado (-20%)"
+            },
+            {
+                "id": 1120,
+                "label": "Anual al contado"
+            },
+            {
+                "id": 1343,
+                "label": "Bianual (2 cuotas y -50% de descuento)"
+            },
+            {
+                "id": 1344,
+                "label": "Trimestral"
+            },
+            {
+                "id": 1409,
+                "label": "Anual 2 Cuotas (-15%)"
+            },
+            {
+                "id": 1458,
+                "label": "Anual 2 Cuotas (-30%)"
+            },
+            {
+                "id": 1479,
+                "label": "Anual 2 cuotas (- 50%)"
+            },
+            {
+                "id": 1417,
+                "label": "Trimestral (MX)"
+            },
+            {
+                "id": 1419,
+                "label": "Bianual 3 Cuotas (-50%)"
+            },
+            {
+                "id": 1457,
+                "label": "Bianual 3 Cuotas (-30%)"
+            },
+            {
+                "id": 1420,
+                "label": "Bianual 2 Cuotas (-20%)"
+            },
+            {
+                "id": 1421,
+                "label": "Bianual 2 Cuotas (-50%)"
+            },
+            {
+                "id": 1426,
+                "label": "Mensual"
+            },
+            {
+                "id": 1427,
+                "label": "Anual al contado (-25%)"
+            },
+            {
+                "id": 1478,
+                "label": "Anual 2 Cuotas (-20%)"
+            },
+            {
+                "id": 1438,
+                "label": "Anual 3 Cuotas (-15%)"
+            },
+            {
+                "id": 2306,
+                "label": "Anual 3 Cuotas (-20%)"
+            },
+            {
+                "id": 1456,
+                "label": "Anual crece mype"
+            },
+            {
+                "id": 1480,
+                "label": "Bianual (4 cuotas y -50% de descuento)"
+            },
+            {
+                "id": 2095,
+                "label": "Anual 3 Cuotas (-50%)"
+            },
+            {
+                "id": 2195,
+                "label": "3 a\u00f1os 3 Cuotas (-50%)"
+            },
+            {
+                "id": 2211,
+                "label": "3 a\u00f1os 2 Cuotas (-50%)"
+            },
+            {
+                "id": 2212,
+                "label": "3 a\u00f1os al contado (-50%)"
+            },
+            {
+                "id": 2264,
+                "label": "Anual 4 cuotas (-50%)"
+            },
+            {
+                "id": 2318,
+                "label": "Anual"
+            },
+            {
+                "id": 2319,
+                "label": "Bianual"
+            },
+            {
+                "id": 2322,
+                "label": "Mensual d\u00e9bito autom\u00e1tico"
+            },
+            {
+                "id": 2329,
+                "label": "Anual al contado (-33%)"
+            },
+            {
+                "id": 2330,
+                "label": "Anual d\u00e9bito autom\u00e1tico"
+            },
+            {
+                "id": 2331,
+                "label": "Bianual d\u00e9bito autom\u00e1tico"
+            }
+        ]
+    },
+    {
+        "id": 12633,
+        "key": "7f68dddc1f54a54fe357b8c8b956dc75b64d172c",
+        "name": "(C)(EXP) Grupo",
+        "group_id": 1,
+        "order_nr": 36,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2022-01-06 19:54:12",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189238,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1429,
+                "label": "Grupo 0 - hasta $36k anuales (old)"
+            },
+            {
+                "id": 1359,
+                "label": "Grupo 1 - hasta $72k anuales (old)"
+            },
+            {
+                "id": 1360,
+                "label": "Grupo 2 - hasta $240k anuales (old)"
+            },
+            {
+                "id": 1361,
+                "label": "Grupo 3 - hasta $900k anuales (old)"
+            },
+            {
+                "id": 1362,
+                "label": "Grupo 4 - hasta $2M anuales (old)"
+            },
+            {
+                "id": 1363,
+                "label": "Grupo 5 - hasta $6M anuales (old)"
+            },
+            {
+                "id": 1410,
+                "label": "Grupo 6 - hasta $24M anuales (old)"
+            },
+            {
+                "id": 1364,
+                "label": "No aplica"
+            },
+            {
+                "id": 2079,
+                "label": "Grupo 1 - hasta $72k anuales"
+            },
+            {
+                "id": 2080,
+                "label": "Grupo 2 - hasta $144k anuales"
+            },
+            {
+                "id": 2081,
+                "label": "Grupo 3 - hasta $240k anuales"
+            },
+            {
+                "id": 2082,
+                "label": "Grupo 4 - hasta $420k anuales"
+            },
+            {
+                "id": 2083,
+                "label": "Grupo 5 - hasta $600k anuales"
+            },
+            {
+                "id": 2084,
+                "label": "Grupo 6 - hasta $900k anuales"
+            },
+            {
+                "id": 2085,
+                "label": "Grupo 7 - hasta $1.2M anuales"
+            },
+            {
+                "id": 2086,
+                "label": "Grupo 8 - hasta $1.56M anuales"
+            },
+            {
+                "id": 2087,
+                "label": "Grupo 9 - hasta $2M anuales"
+            },
+            {
+                "id": 2088,
+                "label": "Grupo 10 - hasta $2.4M anuales"
+            },
+            {
+                "id": 2089,
+                "label": "Grupo 11 - hasta $4.2M anuales"
+            },
+            {
+                "id": 2090,
+                "label": "Grupo 12 - hasta $6M anuales"
+            },
+            {
+                "id": 2091,
+                "label": "Grupo 13 - hasta $9M anuales"
+            },
+            {
+                "id": 2092,
+                "label": "Grupo 14 - hasta $12M anuales"
+            },
+            {
+                "id": 2093,
+                "label": "Grupo 15 - hasta $18M anuales"
+            },
+            {
+                "id": 2094,
+                "label": "Grupo 16 - hasta $24M anuales"
+            }
+        ]
+    },
+    {
+        "id": 12549,
+        "key": "276dcdf612ea13c79d98f379c077790d993acea3",
+        "name": "(C)(EXP) Mail de activaci\u00f3n",
+        "group_id": 1,
+        "order_nr": 37,
+        "field_type": "varchar",
+        "json_column_flag": true,
+        "add_time": "2020-06-12 03:02:38",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12650,
+        "key": "92f900a68617a45155010dab81981f21d78302f6",
+        "name": "Ciclo de Ventas (d\u00edas)",
+        "group_id": 1,
+        "order_nr": 38,
+        "field_type": "varchar_auto",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:06:28",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12651,
+        "key": "9920bb55217f806741a08876295ff9cd959be3f8",
+        "name": "(COM) Fecha 1er Reuni\u00f3n",
+        "group_id": 1,
+        "order_nr": 39,
+        "field_type": "date",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:06:51",
+        "update_time": "2024-12-23 20:19:06",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12649,
+        "key": "f9ddc8610ce79541f37925837ae3d1f695b26093",
+        "name": "Datos relevantes",
+        "group_id": 1,
+        "order_nr": 40,
+        "field_type": "varchar_auto",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:06:16",
+        "update_time": "2024-12-27 00:18:59",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12634,
+        "key": "fc9b2caf043cb69739dcab8be42cc132af6ff14c",
+        "name": "TTCLID",
+        "group_id": 3,
+        "order_nr": 42,
+        "field_type": "varchar",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:00:49",
+        "update_time": "2024-12-27 15:11:20",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12591,
+        "key": "6b9a99fd7b5910bc224698888cbac8ddc70aca74",
+        "name": "\u00bfQu\u00e9 software utilizas actualmente para gestionar tu negocio?",
+        "group_id": 3,
+        "order_nr": 43,
+        "field_type": "varchar",
+        "json_column_flag": true,
+        "add_time": "2021-03-15 19:28:26",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12516,
+        "key": "989c84eff4bbfdf35cdb8c54a051f986a0b13388",
+        "name": "Tiempo de contacto (min)",
+        "group_id": 3,
+        "order_nr": 44,
+        "field_type": "double",
+        "json_column_flag": true,
+        "add_time": "2020-02-13 18:52:19",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12622,
+        "key": "060319d12a14797f125d93a96ddae3b730a1f718",
+        "name": "\u00bfC\u00f3mo deseas que te contactemos?",
+        "group_id": 3,
+        "order_nr": 45,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2021-08-02 19:26:35",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1151,
+                "label": "WhatsApp"
+            },
+            {
+                "id": 2364,
+                "label": "Correo"
+            },
+            {
+                "id": 2368,
+                "label": "Llamada"
+            }
+        ]
+    },
+    {
+        "id": 12580,
+        "key": "14f5a67b9554492181597339dd819644eedde03d",
+        "name": "(MKT) utm_source",
+        "group_id": 3,
+        "order_nr": 46,
+        "field_type": "varchar",
+        "json_column_flag": true,
+        "add_time": "2021-02-03 01:54:22",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12583,
+        "key": "b7bde859abe80521c54755d1880fa695d58d4460",
+        "name": "(MKT) utm_medium",
+        "group_id": 3,
+        "order_nr": 47,
+        "field_type": "varchar",
+        "json_column_flag": true,
+        "add_time": "2021-02-10 01:00:06",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12515,
+        "key": "479cba6a4429ba29d76adcce39f04b9f9d0729c2",
+        "name": "GLCID",
+        "group_id": 3,
+        "order_nr": 48,
+        "field_type": "text",
+        "json_column_flag": true,
+        "add_time": "2020-01-02 12:51:55",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12486,
+        "key": "aea2fd4a21c1340ad07d11ec217a40f4f9c873d0",
+        "name": "\u00bfC\u00f3mo se enter\u00f3 de tuGerente?",
+        "group_id": 3,
+        "order_nr": 49,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2019-06-12 19:32:38",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 12006307,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 116,
+                "label": "Facebook - Demo"
+            },
+            {
+                "id": 117,
+                "label": "Recomendado"
+            },
+            {
+                "id": 118,
+                "label": "Periodico"
+            },
+            {
+                "id": 119,
+                "label": "Radio"
+            },
+            {
+                "id": 219,
+                "label": "Formulario Facebook"
+            },
+            {
+                "id": 120,
+                "label": "En la calle"
+            },
+            {
+                "id": 121,
+                "label": "Talleres/Webinars"
+            },
+            {
+                "id": 129,
+                "label": "Eventos externos"
+            },
+            {
+                "id": 134,
+                "label": "Instagram"
+            },
+            {
+                "id": 135,
+                "label": "Guia Cainco"
+            },
+            {
+                "id": 136,
+                "label": "JE"
+            },
+            {
+                "id": 151,
+                "label": "Amistad"
+            },
+            {
+                "id": 221,
+                "label": "Fexpo 2019"
+            },
+            {
+                "id": 231,
+                "label": "Pista 8"
+            },
+            {
+                "id": 232,
+                "label": "Linkedin"
+            },
+            {
+                "id": 252,
+                "label": "Viral Loops"
+            },
+            {
+                "id": 274,
+                "label": "de alguna base de datos"
+            },
+            {
+                "id": 276,
+                "label": "Facebook - Whatsapp"
+            },
+            {
+                "id": 279,
+                "label": "Comentario/Inbox v\u00eda Facebook"
+            },
+            {
+                "id": 284,
+                "label": "PedidosYa"
+            },
+            {
+                "id": 285,
+                "label": "FB Arte PedidosYa"
+            },
+            {
+                "id": 296,
+                "label": "Nosotros llegamos a ellos"
+            },
+            {
+                "id": 298,
+                "label": "Emprendimiento/empresa nueva"
+            },
+            {
+                "id": 722,
+                "label": "Ecommerce"
+            },
+            {
+                "id": 723,
+                "label": "Facturaci\u00f3n tuG"
+            },
+            {
+                "id": 724,
+                "label": "Plan Gastro"
+            },
+            {
+                "id": 810,
+                "label": "Soporte tuG"
+            },
+            {
+                "id": 819,
+                "label": "Partner Integraci\u00f3n "
+            },
+            {
+                "id": 820,
+                "label": "Partner Contador/Auditor"
+            },
+            {
+                "id": 849,
+                "label": "LeadBooster"
+            },
+            {
+                "id": 1038,
+                "label": "Partnerships"
+            },
+            {
+                "id": 1039,
+                "label": "Buber Referral"
+            },
+            {
+                "id": 1378,
+                "label": "Llamada Juan Miguel"
+            },
+            {
+                "id": 2230,
+                "label": "Netlife"
+            }
+        ]
+    },
+    {
+        "id": 12568,
+        "key": "36d1d6fa87d130c8f9d14673349d7398a410aa8a",
+        "name": "FBCLID",
+        "group_id": 3,
+        "order_nr": 50,
+        "field_type": "text",
+        "json_column_flag": true,
+        "add_time": "2020-11-13 23:34:14",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12638,
+        "key": "b8bcad76472d53560c1eb633ebf86dad1f256d51",
+        "name": "utm_term",
+        "group_id": 3,
+        "order_nr": 51,
+        "field_type": "text",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:02:04",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12581,
+        "key": "ddf6a88c74fa691ebf03a966c981ed9af9ec6a43",
+        "name": "\u00bfTienes una empresa/negocio actualmente?",
+        "group_id": 3,
+        "order_nr": 52,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2021-02-05 03:25:50",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 928,
+                "label": "S\u00ed"
+            },
+            {
+                "id": 929,
+                "label": "Tengo un proyecto"
+            }
+        ]
+    },
+    {
+        "id": 12562,
+        "key": "bd26feb2a5003cdfdd93cc285a430addee6b8d2e",
+        "name": "utm_content",
+        "group_id": 3,
+        "order_nr": 53,
+        "field_type": "varchar",
+        "json_column_flag": true,
+        "add_time": "2020-08-21 21:06:18",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 11757239,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12566,
+        "key": "3142d5d41cacd31a45ad3fd147cdd55fa438fcfe",
+        "name": "(EXP) Fecha de Ganado",
+        "group_id": 5,
+        "order_nr": 55,
+        "field_type": "date",
+        "json_column_flag": true,
+        "add_time": "2020-11-09 21:12:16",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 15849589,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12643,
+        "key": "bd4c61ea917a2c8ca4299a2d95ce4d511233766b",
+        "name": "(EXP) Nombre Implementador",
+        "group_id": 5,
+        "order_nr": 56,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:03:58",
+        "update_time": "2024-12-27 13:38:16",
+        "last_updated_by_user_id": 15849589,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1386,
+                "label": "Fermin Colque"
+            },
+            {
+                "id": 1387,
+                "label": "Jorge Mendivil"
+            },
+            {
+                "id": 2356,
+                "label": "Maria Laura Chavez"
+            },
+            {
+                "id": 2365,
+                "label": "Brandon Gomez"
+            }
+        ]
+    },
+    {
+        "id": 12501,
+        "key": "713eadfd46eac5dd99896ee5c2ed11808743f8fb",
+        "name": "(EXP) Tenant ID",
+        "group_id": 5,
+        "order_nr": 57,
+        "field_type": "double",
+        "json_column_flag": true,
+        "add_time": "2019-10-08 16:43:21",
+        "update_time": "2025-01-03 13:32:26",
+        "last_updated_by_user_id": 15849589,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12588,
+        "key": "63a6039bed1bd81c006b647a357a1b69bf4396b2",
+        "name": "(EXP) Fecha Kickoff",
+        "group_id": 5,
+        "order_nr": 58,
+        "field_type": "date",
+        "json_column_flag": true,
+        "add_time": "2021-03-05 21:18:54",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12600,
+        "key": "441388a1b4c6c80c93af18265538ce3bdc6cf3ed",
+        "name": "(C)(EXP) Fecha Suscripci\u00f3n Inicio",
+        "group_id": 5,
+        "order_nr": 59,
+        "field_type": "date",
+        "json_column_flag": true,
+        "add_time": "2021-06-04 19:38:43",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 11976691,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12493,
+        "key": "fa81335fc69675114b2dd0a26712b0adeda1227d",
+        "name": "(EXP) Fecha de cobro de suscripci\u00f3n",
+        "group_id": 5,
+        "order_nr": 60,
+        "field_type": "date",
+        "json_column_flag": true,
+        "add_time": "2019-07-15 21:19:59",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12498,
+        "key": "c31fb355f18fc269a38294b7d1876cb120bf8688",
+        "name": "(EXP) Mes de cobro",
+        "group_id": 5,
+        "order_nr": 61,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2019-09-03 12:46:32",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 185,
+                "label": "Enero - 2021"
+            },
+            {
+                "id": 186,
+                "label": "Febrero - 2021"
+            },
+            {
+                "id": 187,
+                "label": "Marzo - 2021"
+            },
+            {
+                "id": 188,
+                "label": "Abril - 2021"
+            },
+            {
+                "id": 189,
+                "label": "Mayo - 2021"
+            },
+            {
+                "id": 190,
+                "label": "Junio - 2021"
+            },
+            {
+                "id": 191,
+                "label": "Julio - 2021"
+            },
+            {
+                "id": 192,
+                "label": "Agosto - 2021"
+            },
+            {
+                "id": 193,
+                "label": "Septiembre - 2021"
+            },
+            {
+                "id": 194,
+                "label": "Octubre - 2021"
+            },
+            {
+                "id": 195,
+                "label": "Noviembre - 2021"
+            },
+            {
+                "id": 196,
+                "label": "Diciembre - 2021"
+            },
+            {
+                "id": 1001,
+                "label": "Enero - 2022"
+            },
+            {
+                "id": 1002,
+                "label": "Febrero - 2022"
+            },
+            {
+                "id": 1003,
+                "label": "Marzo - 2022"
+            },
+            {
+                "id": 1004,
+                "label": "Abril - 2022"
+            },
+            {
+                "id": 1005,
+                "label": "Mayo - 2022"
+            },
+            {
+                "id": 1006,
+                "label": "Junio - 2022"
+            },
+            {
+                "id": 1007,
+                "label": "Julio - 2022"
+            },
+            {
+                "id": 1008,
+                "label": "Agosto - 2022"
+            },
+            {
+                "id": 1009,
+                "label": "Septiembre - 2022"
+            },
+            {
+                "id": 1010,
+                "label": "Octubre - 2022"
+            },
+            {
+                "id": 1011,
+                "label": "Noviembre - 2022"
+            },
+            {
+                "id": 1012,
+                "label": "Diciembre - 2022"
+            },
+            {
+                "id": 1013,
+                "label": "Enero - 2023"
+            },
+            {
+                "id": 1014,
+                "label": "Febrero - 2023"
+            },
+            {
+                "id": 1015,
+                "label": "Marzo - 2023"
+            },
+            {
+                "id": 1016,
+                "label": "Abril - 2023"
+            },
+            {
+                "id": 1017,
+                "label": "Mayo - 2023"
+            },
+            {
+                "id": 1018,
+                "label": "Junio - 2023"
+            },
+            {
+                "id": 1019,
+                "label": "Julio - 2023"
+            },
+            {
+                "id": 1020,
+                "label": "Agosto - 2023"
+            },
+            {
+                "id": 1021,
+                "label": "Septiembre - 2023"
+            },
+            {
+                "id": 1022,
+                "label": "Octubre - 2023"
+            },
+            {
+                "id": 1023,
+                "label": "Noviembre - 2023"
+            },
+            {
+                "id": 1024,
+                "label": "Diciembre - 2023"
+            },
+            {
+                "id": 1025,
+                "label": "Enero - 2024"
+            },
+            {
+                "id": 1026,
+                "label": "Febrero - 2024"
+            },
+            {
+                "id": 1027,
+                "label": "Marzo - 2024"
+            },
+            {
+                "id": 1028,
+                "label": "Abril - 2024"
+            },
+            {
+                "id": 1029,
+                "label": "Mayo - 2024"
+            },
+            {
+                "id": 1030,
+                "label": "Junio - 2024"
+            },
+            {
+                "id": 1031,
+                "label": "Julio - 2024"
+            },
+            {
+                "id": 1032,
+                "label": "Agosto - 2024"
+            },
+            {
+                "id": 1033,
+                "label": "Septiembre - 2024"
+            },
+            {
+                "id": 1034,
+                "label": "Octubre - 2024"
+            },
+            {
+                "id": 1035,
+                "label": "Noviembre - 2024"
+            },
+            {
+                "id": 1036,
+                "label": "Diciembre - 2024"
+            },
+            {
+                "id": 1298,
+                "label": "Enero - 2020"
+            },
+            {
+                "id": 1299,
+                "label": "Febrero - 2020"
+            },
+            {
+                "id": 1300,
+                "label": "Marzo - 2020"
+            },
+            {
+                "id": 1301,
+                "label": "Abril - 2020"
+            },
+            {
+                "id": 1302,
+                "label": "Mayo - 2020"
+            },
+            {
+                "id": 1303,
+                "label": "Junio - 2020"
+            },
+            {
+                "id": 1304,
+                "label": "Julio - 2020"
+            },
+            {
+                "id": 1305,
+                "label": "Agosto - 2020"
+            },
+            {
+                "id": 1306,
+                "label": "Septiembre - 2020"
+            },
+            {
+                "id": 1307,
+                "label": "Octubre - 2020"
+            },
+            {
+                "id": 1308,
+                "label": "Noviembre - 2020"
+            },
+            {
+                "id": 1309,
+                "label": "Diciembre - 2020"
+            },
+            {
+                "id": 1464,
+                "label": "Enero - 2025"
+            },
+            {
+                "id": 1465,
+                "label": "Febrero - 2025"
+            },
+            {
+                "id": 1466,
+                "label": "Marzo - 2025"
+            },
+            {
+                "id": 1467,
+                "label": "Abril - 2025"
+            },
+            {
+                "id": 1468,
+                "label": "Mayo - 2025"
+            },
+            {
+                "id": 1469,
+                "label": "Junio - 2025"
+            },
+            {
+                "id": 1470,
+                "label": "Julio - 2025"
+            },
+            {
+                "id": 1471,
+                "label": "Agosto - 2025"
+            },
+            {
+                "id": 1472,
+                "label": "Septiembre - 2025"
+            },
+            {
+                "id": 1473,
+                "label": "Octubre - 2025"
+            },
+            {
+                "id": 1474,
+                "label": "Noviembre - 2025"
+            },
+            {
+                "id": 1475,
+                "label": "Diciembre - 2025"
+            },
+            {
+                "id": 1498,
+                "label": "Enero - 2026"
+            },
+            {
+                "id": 1499,
+                "label": "Febrero - 2026"
+            },
+            {
+                "id": 2289,
+                "label": "Marzo - 2026"
+            },
+            {
+                "id": 2290,
+                "label": "Abril - 2026"
+            },
+            {
+                "id": 2291,
+                "label": "Mayo - 2026"
+            },
+            {
+                "id": 2292,
+                "label": "Junio - 2026"
+            },
+            {
+                "id": 2293,
+                "label": "Julio - 2026"
+            },
+            {
+                "id": 2294,
+                "label": "Agosto - 2026"
+            },
+            {
+                "id": 2295,
+                "label": "Septiembre - 2026"
+            },
+            {
+                "id": 2296,
+                "label": "Octubre - 2026"
+            },
+            {
+                "id": 2297,
+                "label": "Noviembre - 2026"
+            },
+            {
+                "id": 2298,
+                "label": "Diciembre - 2026"
+            }
+        ]
+    },
+    {
+        "id": 12552,
+        "key": "61b3619323f9c48a6fa818f556c91b3f619d5a0f",
+        "name": "(EXP) Fecha final de suscripci\u00f3n - Mora",
+        "group_id": 5,
+        "order_nr": 62,
+        "field_type": "date",
+        "json_column_flag": true,
+        "add_time": "2020-06-19 23:55:28",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12652,
+        "key": "52097da2a2ced2cd18811a55d05c65814f3f8a4d",
+        "name": "(EXP) Fecha de finalizaci\u00f3n de onboarding",
+        "group_id": 5,
+        "order_nr": 63,
+        "field_type": "date",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:07:04",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12592,
+        "key": "01cf0ede06a6d5599187864d531a85682d14b78f",
+        "name": "Fase Onboarding",
+        "group_id": 5,
+        "order_nr": 64,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2021-03-15 19:29:47",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 2255,
+                "label": "1er contacto"
+            },
+            {
+                "id": 950,
+                "label": "Kick Off"
+            },
+            {
+                "id": 951,
+                "label": "Configuraciones y datos"
+            },
+            {
+                "id": 1070,
+                "label": "Implementaci\u00f3n"
+            },
+            {
+                "id": 2256,
+                "label": "Onboarding completado"
+            },
+            {
+                "id": 2334,
+                "label": "Onboarding estancado"
+            }
+        ]
+    },
+    {
+        "id": 12635,
+        "key": "21f8b76ecc3f2de8b4528a834127001878d5c716",
+        "name": "(EXP) Kick off disponibles",
+        "group_id": 5,
+        "order_nr": 65,
+        "field_type": "varchar",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:01:02",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12636,
+        "key": "ecdf1262447b6c82411cae021342f37367baeb59",
+        "name": "(EXP) Capacitaciones disponibles",
+        "group_id": 5,
+        "order_nr": 66,
+        "field_type": "varchar",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:01:33",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12579,
+        "key": "fb23bc58635a6cce4750f394f467c4c7937a867e",
+        "name": "(EXP) Horas soporte premium",
+        "group_id": 5,
+        "order_nr": 67,
+        "field_type": "double",
+        "json_column_flag": true,
+        "add_time": "2020-11-23 15:36:31",
+        "update_time": "2024-12-27 14:53:02",
+        "last_updated_by_user_id": 15849589,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12644,
+        "key": "6af1a65dbf7043ae4d3d77945f70f54b004312fd",
+        "name": "(EXP) Estado renovaci\u00f3n",
+        "group_id": 5,
+        "order_nr": 68,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:04:23",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1389,
+                "label": "Pendiente contacto"
+            },
+            {
+                "id": 1482,
+                "label": "Propuesta Enviada"
+            },
+            {
+                "id": 2307,
+                "label": "Propuesta Aceptada"
+            },
+            {
+                "id": 2353,
+                "label": "Propuesta Aceptada pr\u00f3rroga"
+            },
+            {
+                "id": 1483,
+                "label": "Churn"
+            },
+            {
+                "id": 2320,
+                "label": "Cuenta inactiva"
+            },
+            {
+                "id": 2404,
+                "label": "Propuesta rechazada"
+            },
+            {
+                "id": 2405,
+                "label": "Pagado"
+            }
+        ]
+    },
+    {
+        "id": 12525,
+        "key": "2016d2159535a481d08fec1bcfb00baf5a98c84a",
+        "name": "(EXP) Fecha de cobro cuota",
+        "group_id": 5,
+        "order_nr": 69,
+        "field_type": "date",
+        "json_column_flag": true,
+        "add_time": "2020-03-05 16:38:52",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12645,
+        "key": "1a1fd3f05972a307ab6a613ffe602b1fc7b6ba3f",
+        "name": "(EXP) Tipo de Ingreso",
+        "group_id": 5,
+        "order_nr": 70,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:04:54",
+        "update_time": "2024-12-27 00:07:43",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 2311,
+                "label": "Renovaci\u00f2n"
+            },
+            {
+                "id": 2312,
+                "label": "Cobranza"
+            },
+            {
+                "id": 2313,
+                "label": "Upselling"
+            },
+            {
+                "id": 2314,
+                "label": "Cross selling"
+            },
+            {
+                "id": 2315,
+                "label": "Referido"
+            },
+            {
+                "id": 2317,
+                "label": "Resurrection"
+            }
+        ]
+    },
+    {
+        "id": 12485,
+        "key": "15d348d46d9ed0b2bf4b05581fd2acd4d3188dec",
+        "name": "(EXP) Puntuaci\u00f3n NPS",
+        "group_id": 5,
+        "order_nr": 71,
+        "field_type": "double",
+        "json_column_flag": true,
+        "add_time": "2019-06-03 18:00:35",
+        "update_time": "2025-01-23 00:43:38",
+        "last_updated_by_user_id": 15849589,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12556,
+        "key": "c61388406f63ea5ad15c445c16dd78f115128598",
+        "name": "(EXP) Mail cobro recurrente",
+        "group_id": 5,
+        "order_nr": 72,
+        "field_type": "varchar",
+        "json_column_flag": true,
+        "add_time": "2020-08-04 23:07:47",
+        "update_time": "2025-01-23 00:43:38",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12656,
+        "key": "09ca2c1a499dade915765bf8eb5b1ef052c403c8",
+        "name": "(EXP) \u00bfRecomendador?",
+        "group_id": 5,
+        "order_nr": 73,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:08:30",
+        "update_time": "2025-01-23 00:43:38",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1406,
+                "label": "S\u00ed"
+            },
+            {
+                "id": 1407,
+                "label": "No"
+            }
+        ]
+    },
+    {
+        "id": 12528,
+        "key": "cd0a2154053a46ee2f1617648bca1827db735ab3",
+        "name": "TBD",
+        "group_id": 7,
+        "order_nr": 75,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2020-03-11 20:30:05",
+        "update_time": "2025-01-23 00:43:38",
+        "last_updated_by_user_id": 9189273,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 2275,
+                "label": "TBD1"
+            },
+            {
+                "id": 2304,
+                "label": "TBD2"
+            }
+        ]
+    },
+    {
+        "id": 12629,
+        "key": "0ee01457a2895c2c8702254c363269f69235c8d9",
+        "name": "[PROD] Activated?",
+        "group_id": 7,
+        "order_nr": 76,
+        "field_type": "enum",
+        "json_column_flag": true,
+        "add_time": "2021-11-11 22:50:21",
+        "update_time": "2024-10-29 19:17:56",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": true,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1338,
+                "label": "S\u00ed"
+            },
+            {
+                "id": 1340,
+                "label": "No"
+            }
+        ]
+    },
+    {
+        "id": 12653,
+        "key": "15cb1ec590af3bdf54a20cc4cf2bb398696cce52",
+        "name": "TBD 20",
+        "group_id": 7,
+        "order_nr": 77,
+        "field_type": "date",
+        "json_column_flag": true,
+        "add_time": "2022-01-17 20:07:19",
+        "update_time": "2024-10-29 19:17:56",
+        "last_updated_by_user_id": 9189238,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        }
+    },
+    {
+        "id": 12628,
+        "key": "e3f3655660c28c9d7ae1101ee994faebb939d08b",
+        "name": "[PROD] Motivo PQL",
+        "group_id": 7,
+        "order_nr": 78,
+        "field_type": "set",
+        "json_column_flag": true,
+        "add_time": "2021-11-11 22:49:25",
+        "update_time": "2024-10-29 19:17:56",
+        "last_updated_by_user_id": 9189231,
+        "edit_flag": true,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": true,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "projects_detail_visible_flag": false,
+        "show_in_pipelines": {
+            "show_in_all": true,
+            "pipeline_ids": []
+        },
+        "options": [
+            {
+                "id": 1336,
+                "label": "Usage Qualified"
+            },
+            {
+                "id": 1337,
+                "label": "Income Qualified"
+            },
+            {
+                "id": 1339,
+                "label": "Upgrade Request"
+            },
+            {
+                "id": 1341,
+                "label": "No PQL"
+            },
+            {
+                "id": 1377,
+                "label": "Transaction Use"
+            }
+        ]
+    }
+]

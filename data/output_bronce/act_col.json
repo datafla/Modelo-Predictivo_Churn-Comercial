@@ -1,0 +1,985 @@
+[
+    {
+        "id": 1,
+        "key": "id",
+        "name": "ID",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "int",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 2,
+        "key": "subject",
+        "name": "Asunto",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "varchar",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 3,
+        "key": "type",
+        "name": "Tipo",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "enum",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "options": [
+            {
+                "id": "llamada_efectiva",
+                "label": "Llamada sin avance"
+            },
+            {
+                "id": "call",
+                "label": "Llamada de prospecci\u00f3n efectiva"
+            },
+            {
+                "id": "llamada_no_efectiva",
+                "label": "Llamada de prospecci\u00f3n No efectiva"
+            },
+            {
+                "id": "deadline",
+                "label": "Llamada de seguimiento efectiva"
+            },
+            {
+                "id": "llamada_de_seguimiento_no_",
+                "label": "Llamada de seguimiento no efectiva"
+            },
+            {
+                "id": "lunch",
+                "label": "Seguimiento WSP"
+            },
+            {
+                "id": "videowsp",
+                "label": "Videowsp"
+            },
+            {
+                "id": "r1",
+                "label": "R1"
+            },
+            {
+                "id": "r1_cancelado",
+                "label": "R1 cancelado"
+            },
+            {
+                "id": "r2_online",
+                "label": "R2 online"
+            },
+            {
+                "id": "r2_in",
+                "label": "R2 In"
+            },
+            {
+                "id": "r2_out",
+                "label": "R2 Out"
+            },
+            {
+                "id": "r2_online_cancelado",
+                "label": "R2 online cancelado"
+            },
+            {
+                "id": "r2_in_cancelado",
+                "label": "R2 in cancelado"
+            },
+            {
+                "id": "r2_out_cancelado",
+                "label": "R2 out cancelado"
+            },
+            {
+                "id": "meeting",
+                "label": "Reuni\u00f3n In"
+            },
+            {
+                "id": "reunin_online",
+                "label": "Reuni\u00f3n Online"
+            },
+            {
+                "id": "reunin_out",
+                "label": "Reuni\u00f3n Out"
+            },
+            {
+                "id": "nuevo_lead",
+                "label": "nuevo lead"
+            },
+            {
+                "id": "segundas_reuniones",
+                "label": "Segundas reuniones"
+            },
+            {
+                "id": "segundas_reuniones_cancela",
+                "label": "Segundas reuniones canceladas"
+            },
+            {
+                "id": "reunin_cancelada",
+                "label": "Reuni\u00f3n In Cancelada"
+            },
+            {
+                "id": "reunin_online_cancelada",
+                "label": "Reuni\u00f3n Online cancelada"
+            },
+            {
+                "id": "reunin_out_cancelada",
+                "label": "Reuni\u00f3n Out Cancelada"
+            },
+            {
+                "id": "email",
+                "label": "Correo electr\u00f3nico"
+            },
+            {
+                "id": "task",
+                "label": "Tarea"
+            },
+            {
+                "id": "llamada_post_venta",
+                "label": "Llamada Experiencia"
+            },
+            {
+                "id": "intercom_conversation1",
+                "label": "Intercom Conversation"
+            },
+            {
+                "id": "whatsapp_chat",
+                "label": "WhatsApp Chat"
+            },
+            {
+                "id": "nps",
+                "label": "Nps"
+            },
+            {
+                "id": "kick_off",
+                "label": "Kick Off"
+            },
+            {
+                "id": "capacitacion_erp",
+                "label": "Capacitaci\u00f3n ERP"
+            },
+            {
+                "id": "capacitacion_conta",
+                "label": "Capacitaci\u00f3n Conta"
+            },
+            {
+                "id": "calibracion",
+                "label": "Calibraci\u00f3n"
+            },
+            {
+                "id": "kick_off_cancelada",
+                "label": "Kick Off cancelada"
+            },
+            {
+                "id": "capacitacion_erp_cancelada",
+                "label": "Capacitaci\u00f3n ERP cancelada"
+            },
+            {
+                "id": "capacitacion_conta_cancela",
+                "label": "Capacitaci\u00f3n Conta cancelada"
+            },
+            {
+                "id": "calibracion_cancelada",
+                "label": "Calibraci\u00f3n cancelada"
+            },
+            {
+                "id": "cuota_comercial",
+                "label": "Cuota Comercial"
+            },
+            {
+                "id": "seguimiento_soporte",
+                "label": "Seguimiento Soporte"
+            },
+            {
+                "id": "verificar_uso",
+                "label": "Verificar uso"
+            },
+            {
+                "id": "product_qualified_lead",
+                "label": "Product Qualified Lead"
+            },
+            {
+                "id": "grupal",
+                "label": "Grupal ERP"
+            },
+            {
+                "id": "grupal_cancelada",
+                "label": "Grupal ERP Cancelada"
+            },
+            {
+                "id": "grupal_kick_off",
+                "label": "Grupal Kick Off"
+            },
+            {
+                "id": "grupal_kick_off_cancelada",
+                "label": "Grupal Kick Off Cancelada"
+            },
+            {
+                "id": "grupal_carga_masiva",
+                "label": "Grupal carga masiva"
+            },
+            {
+                "id": "grupal_carga_masiva_cancel",
+                "label": "Grupal carga masiva cancelada"
+            },
+            {
+                "id": "grupal_contabilidad",
+                "label": "Grupal Contabilidad"
+            },
+            {
+                "id": "grupal_contabilidad_cancel",
+                "label": "Grupal contabilidad cancelada"
+            },
+            {
+                "id": "email_mkt",
+                "label": "Email MKT"
+            },
+            {
+                "id": "reclamo___caso_especial",
+                "label": "Nuevo Reclamo - Caso especial"
+            },
+            {
+                "id": "cierre_reclamo___caso_espe",
+                "label": "Cierre Reclamo - Caso especial"
+            },
+            {
+                "id": "verificar_uso___quick_win",
+                "label": "Verificar uso - Quick Win"
+            },
+            {
+                "id": "verificar_uso___quick_win1",
+                "label": "Verificar uso - Quick Win"
+            },
+            {
+                "id": "visita_cliente",
+                "label": "Visita Cliente"
+            },
+            {
+                "id": "implementado_plg",
+                "label": "Implementado (PLG)"
+            },
+            {
+                "id": "cuenta_por_cobrar_pendient",
+                "label": "Cuenta por cobrar pendiente"
+            },
+            {
+                "id": "cuenta_por_cobrar_cobrada",
+                "label": "cuenta por cobrar cobrada"
+            },
+            {
+                "id": "seguimiento_conecta",
+                "label": "Seguimiento Conecta"
+            },
+            {
+                "id": "mover_a_tibios",
+                "label": "Mover a tibios"
+            },
+            {
+                "id": "sesion_diagnostico",
+                "label": "Sesi\u00f3n diagn\u00f3stico"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "key": "done",
+        "name": "Hecho",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "enum",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "options": [
+            {
+                "id": false,
+                "label": "Pendiente"
+            },
+            {
+                "id": true,
+                "label": "Finalizado"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "key": "marked_as_done_time",
+        "name": "Hora en que se marc\u00f3 como completada",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 6,
+        "key": "org_id",
+        "name": "Organizaci\u00f3n",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "org",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 7,
+        "key": "person_id",
+        "name": "Persona de contacto",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "people",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 8,
+        "key": "deal_id",
+        "name": "Negocio",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "deal",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 9,
+        "key": "due_date",
+        "name": "Fecha de vencimiento",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 10,
+        "key": "due_time",
+        "name": "Hora de vencimiento",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "time",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 11,
+        "key": "duration",
+        "name": "Duraci\u00f3n",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "time",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 12,
+        "key": "note",
+        "name": "Nota",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "text",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 13,
+        "key": "add_time",
+        "name": "A\u00f1adir hora",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 14,
+        "key": "user_id",
+        "name": "Asignada al usuario",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "user",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 15,
+        "key": "created_by_user_id",
+        "name": "Creador",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "user",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 16,
+        "key": "update_time",
+        "name": "Fecha de actualizaci\u00f3n",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 17,
+        "key": "last_notification_time",
+        "name": "Hora de la \u00faltima notificaci\u00f3n",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "date",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": false,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 18,
+        "key": "location",
+        "name": "Ubicaci\u00f3n",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "address",
+        "json_column_flag": false,
+        "add_time": "2019-05-20 17:17:33",
+        "update_time": "2019-05-20 17:17:33",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": null,
+        "key": "location_lat",
+        "name": "Latitud de Ubicaci\u00f3n",
+        "field_type": "double",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "lat"
+    },
+    {
+        "id": null,
+        "key": "location_long",
+        "name": "Longitud de Ubicaci\u00f3n",
+        "field_type": "double",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "long"
+    },
+    {
+        "id": null,
+        "key": "location_subpremise",
+        "name": "N.\u00b0 de apartamento/piso de Ubicaci\u00f3n",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "subpremise"
+    },
+    {
+        "id": null,
+        "key": "location_street_number",
+        "name": "N\u00famero de casa de Ubicaci\u00f3n",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "street_number"
+    },
+    {
+        "id": null,
+        "key": "location_route",
+        "name": "Nombre de la calle de Ubicaci\u00f3n",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "route"
+    },
+    {
+        "id": null,
+        "key": "location_sublocality",
+        "name": "Distrito/sublocalidad de Ubicaci\u00f3n",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "sublocality"
+    },
+    {
+        "id": null,
+        "key": "location_locality",
+        "name": "Ciudad/pueblo/localidad de Ubicaci\u00f3n",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "locality"
+    },
+    {
+        "id": null,
+        "key": "location_admin_area_level_1",
+        "name": "Provincia/municipio de Ubicaci\u00f3n",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "admin_area_level_1"
+    },
+    {
+        "id": null,
+        "key": "location_admin_area_level_2",
+        "name": "Regi\u00f3n de Ubicaci\u00f3n",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "admin_area_level_2"
+    },
+    {
+        "id": null,
+        "key": "location_country",
+        "name": "Pa\u00eds de Ubicaci\u00f3n",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "country"
+    },
+    {
+        "id": null,
+        "key": "location_postal_code",
+        "name": "C\u00f3digo postal de Ubicaci\u00f3n",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "postal_code"
+    },
+    {
+        "id": null,
+        "key": "location_formatted_address",
+        "name": "Direcci\u00f3n completa/combinada de Ubicaci\u00f3n",
+        "field_type": "varchar",
+        "edit_flag": false,
+        "active_flag": true,
+        "is_subfield": true,
+        "mandatory_flag": false,
+        "parent_id": 18,
+        "id_suffix": "formatted_address"
+    },
+    {
+        "id": 19,
+        "key": "busy_flag",
+        "name": "Libre/Ocupado",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "enum",
+        "json_column_flag": false,
+        "add_time": "2019-07-24 10:32:01",
+        "update_time": "2019-07-24 10:32:01",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "options": [
+            {
+                "id": false,
+                "label": "Libre"
+            },
+            {
+                "id": true,
+                "label": "Ocupado"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "key": "public_description",
+        "name": "Descripci\u00f3n p\u00fablica",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "text",
+        "json_column_flag": false,
+        "add_time": "2019-07-24 10:32:01",
+        "update_time": "2019-07-24 10:32:01",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 21,
+        "key": "lead_id",
+        "name": "Prospecto",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "lead",
+        "json_column_flag": false,
+        "add_time": "2019-12-15 12:16:18",
+        "update_time": "2019-12-15 12:16:18",
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": true,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 27,
+        "key": "project_id",
+        "name": "Proyecto",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "project",
+        "json_column_flag": false,
+        "add_time": "2022-06-02 15:20:52",
+        "update_time": "2024-12-20 12:54:06",
+        "last_updated_by_user_id": 0,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": false,
+        "important_flag": false,
+        "bulk_edit_allowed": false,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": false,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true
+    },
+    {
+        "id": 28,
+        "key": "priority",
+        "name": "Prioridad",
+        "group_id": null,
+        "order_nr": 0,
+        "field_type": "enum",
+        "json_column_flag": false,
+        "add_time": "2024-01-15 13:44:50",
+        "update_time": null,
+        "last_updated_by_user_id": null,
+        "edit_flag": false,
+        "details_visible_flag": true,
+        "add_visible_flag": true,
+        "important_flag": false,
+        "bulk_edit_allowed": true,
+        "filtering_allowed": true,
+        "sortable_flag": true,
+        "mandatory_flag": true,
+        "searchable_flag": false,
+        "description": null,
+        "created_by_user_id": null,
+        "active_flag": true,
+        "options": [
+            {
+                "id": 2300,
+                "label": "Baja",
+                "color": "blue"
+            },
+            {
+                "id": 2301,
+                "label": "Mediano",
+                "color": "yellow"
+            },
+            {
+                "id": 2302,
+                "label": "Alta",
+                "color": "red"
+            }
+        ]
+    }
+]
